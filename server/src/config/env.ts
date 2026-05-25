@@ -12,4 +12,8 @@ const envSchema = z.object({
   NODE_ENV: z.enum(['development', 'production', 'test']).default('development'),
 });
 
-export const env = envSchema.parse(process.env);
+// Use process.env directly for PORT to ensure Render's injected PORT is used
+export const env = envSchema.parse({
+  ...process.env,
+  PORT: process.env.PORT || '5000',
+});
