@@ -13,7 +13,7 @@ export const generateTokenAndSetCookie = (userId: string, res: Response) => {
     maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
     httpOnly: true,
     secure: isProduction,
-    sameSite: 'strict', // Hardened CSRF protection
+    sameSite: isProduction ? 'none' : 'strict',
   });
 
   return token;

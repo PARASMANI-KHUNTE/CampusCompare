@@ -33,7 +33,7 @@ const limiter = rateLimit({
 app.use('/api', limiter);
 
 app.use(cors({ origin: [env.CLIENT_URL, 'http://localhost:5173', 'http://localhost:5174'], credentials: true }));
-app.use(morgan('dev'));
+app.use(morgan(env.NODE_ENV === 'production' ? 'combined' : 'dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
