@@ -10,7 +10,7 @@ const AuthLayout = ({ children, title, subtitle }: { children: React.ReactNode; 
     <div className="absolute -bottom-20 -right-20 w-80 h-80 bg-indigo-200/30 rounded-full blur-3xl" />
     <div className="absolute top-1/3 right-1/4 w-48 h-48 bg-emerald-100/30 rounded-full blur-3xl" />
 
-    <div className="flex items-center justify-center w-full max-w-6xl mx-auto gap-12 lg:gap-20">
+    <div className="relative z-10 flex items-center justify-center w-full max-w-6xl mx-auto gap-12 lg:gap-20">
       {/* Left Brand */}
       <div className="hidden lg:flex flex-col items-start max-w-md animate-fade-in">
         <div className="bg-primary-600 p-3 rounded-2xl mb-6 shadow-lg shadow-primary-600/20">
