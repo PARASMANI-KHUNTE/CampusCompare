@@ -195,7 +195,6 @@ export const BulkImportModal = ({ isOpen, onClose }: BulkImportModalProps) => {
         onClose();
       }} 
       title="Bulk Import Colleges"
-      size="lg"
     >
       <div className="space-y-4">
         {/* Help section */}
