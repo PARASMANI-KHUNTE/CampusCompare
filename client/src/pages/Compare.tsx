@@ -1,12 +1,15 @@
 import { useState, useMemo } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Plus, X, ArrowLeft, CheckCircle2, Star, TrendingUp, DollarSign, Trophy, BookOpen, Building2, Search, MapPin, GraduationCap, IndianRupee } from 'lucide-react';
-import { useQuery } from '@tanstack/react-query';
+import { useQuery, useMutation } from '@tanstack/react-query';
 import { useCompare } from '../hooks/useCompare';
 import { useCompareStore } from '../stores/compareStore';
+import { useAuthStore } from '../stores/authStore';
+import { savedComparisonService } from '../services/saved-comparison.service';
 import { useDebounce } from '../hooks/useDebounce';
 import { collegeService } from '../services/college.service';
 import { Button } from '../components/ui/Button';
+import { PromptDialog } from '../components/ui/PromptDialog';
 import { Loader } from '../components/ui/Loader';
 import { ErrorState } from '../components/ui/ErrorState';
 import { EmptyState } from '../components/ui/EmptyState';
@@ -17,7 +20,9 @@ import toast from 'react-hot-toast';
 
 export const Compare = () => {
   const { items, addToCompare, removeFromCompare, clearCompare, isInCompare } = useCompareStore();
+  const { isAuthenticated } = useAuthStore();
   const navigate = useNavigate();
+  const [isPromptOpen, setIsPromptOpen] = useState(false);
 
   const ids = useMemo(() => items.map((i) => i.id), [items]);
   const { data: colleges, isLoading, isError } = useCompare(ids);
@@ -44,6 +49,25 @@ export const Compare = () => {
     if (error) { toast.error(error); return; }
     toast.success(`Added ${college.shortName || college.name} to compare`);
     setSearchQuery('');
+  };
+
+  const saveComparisonMutation = useMutation({
+    mutationFn: (name: string) => savedComparisonService.createSavedComparison({ name, colleges: ids }),
+    onSuccess: () => {
+      toast.success('Comparison saved successfully!');
+    },
+    onError: () => {
+      toast.error('Failed to save comparison');
+    },
+  });
+
+  const handleSaveComparison = () => {
+    if (!isAuthenticated) {
+      toast.error('Please login to save comparisons');
+      navigate('/login');
+      return;
+    }
+    setIsPromptOpen(true);
   };
 
   if (items.length === 0) {
@@ -194,6 +218,11 @@ export const Compare = () => {
           <p className="text-gray-600">Side-by-side analysis of your selected colleges</p>
         </div>
         <div className="flex gap-3">
+          {colleges?.length >= 2 && (
+            <Button variant="secondary" onClick={handleSaveComparison} disabled={saveComparisonMutation.isPending}>
+              {saveComparisonMutation.isPending ? 'Saving...' : 'Save Comparison'}
+            </Button>
+          )}
           <Button variant="outline" onClick={() => navigate('/colleges')}>
             <ArrowLeft className="w-4 h-4 mr-2" /> Back to Search
           </Button>
@@ -484,6 +513,20 @@ export const Compare = () => {
           ))}
         </div>
       </div>
+
+      <PromptDialog
+        isOpen={isPromptOpen}
+        onSubmit={(name) => {
+          saveComparisonMutation.mutate(name);
+          setIsPromptOpen(false);
+        }}
+        onCancel={() => setIsPromptOpen(false)}
+        title="Save Comparison"
+        message="Enter a name for this comparison to save it for later."
+        initialValue="My Comparison"
+        placeholder="Comparison name"
+        submitText="Save"
+      />
     </div>
   );
 };

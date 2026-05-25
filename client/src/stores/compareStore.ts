@@ -8,6 +8,7 @@ interface CompareState {
   removeFromCompare: (collegeId: string) => void;
   clearCompare: () => void;
   isInCompare: (collegeId: string) => boolean;
+  setItems: (items: College[]) => void;
 }
 
 export const useCompareStore = create<CompareState>()(
@@ -33,6 +34,9 @@ export const useCompareStore = create<CompareState>()(
       },
       isInCompare: (collegeId) => {
         return get().items.some((i) => i.id === collegeId);
+      },
+      setItems: (items) => {
+        set({ items });
       },
     }),
     {

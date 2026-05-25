@@ -141,3 +141,38 @@ export interface ReviewData {
   campusRating?: number;
   valueForMoneyRating?: number;
 }
+
+export interface Discussion {
+  id: string;
+  title?: string;
+  content: string;
+  userId: string;
+  collegeId?: string;
+  upvotes: number;
+  createdAt: string;
+  updatedAt: string;
+  user?: { name: string; avatarUrl?: string };
+  college?: { name: string; slug: string };
+  answers?: Answer[];
+  _count?: { answers: number };
+}
+
+export interface Answer {
+  id: string;
+  content: string;
+  discussionId: string;
+  userId: string;
+  upvotes: number;
+  isAccepted: boolean;
+  createdAt: string;
+  updatedAt: string;
+  user?: { name: string; avatarUrl?: string };
+}
+
+export interface SavedComparison {
+  id: string;
+  name: string;
+  userId: string;
+  colleges: string[];
+  createdAt: string;
+}

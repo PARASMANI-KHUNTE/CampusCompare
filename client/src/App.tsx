@@ -13,6 +13,8 @@ const Home = lazy(() => import('./pages/Home').then(m => ({ default: m.Home })))
 const CollegeListing = lazy(() => import('./pages/CollegeListing').then(m => ({ default: m.CollegeListing })));
 const CollegeDetail = lazy(() => import('./pages/CollegeDetail').then(m => ({ default: m.CollegeDetail })));
 const Compare = lazy(() => import('./pages/Compare').then(m => ({ default: m.Compare })));
+const Predictor = lazy(() => import('./pages/Predictor').then(m => ({ default: m.Predictor })));
+const Discussions = lazy(() => import('./pages/Discussions').then(m => ({ default: m.Discussions })));
 const SavedColleges = lazy(() => import('./pages/SavedColleges').then(m => ({ default: m.SavedColleges })));
 const Login = lazy(() => import('./pages/AuthPages').then(m => ({ default: m.Login })));
 const Register = lazy(() => import('./pages/AuthPages').then(m => ({ default: m.Register })));
@@ -50,6 +52,8 @@ function App() {
                   <Route path="/colleges" element={<CollegeListing />} />
                   <Route path="/colleges/:slug" element={<CollegeDetail />} />
                   <Route path="/compare" element={<Compare />} />
+                  <Route path="/predictor" element={<Predictor />} />
+                  <Route path="/discussions" element={<Discussions />} />
                   
                   <Route path="/login" element={<Login />} />
                   <Route path="/register" element={<Register />} />

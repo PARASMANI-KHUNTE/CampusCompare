@@ -1,5 +1,6 @@
+import { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { MapPin, Star, Building2, CheckCircle2, IndianRupee, GraduationCap, Heart, ExternalLink, Clock, Award, Sparkles, Scale, Trophy, Bell, FileText, Trash2 } from 'lucide-react';
+import { MapPin, Star, Building2, CheckCircle2, IndianRupee, GraduationCap, Heart, ExternalLink, Clock, Award, Sparkles, Scale, Trophy, Bell, FileText, Trash2, MessageSquare } from 'lucide-react';
 import { useCollege, useRelatedColleges } from '../hooks/useColleges';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { adminService } from '../services/admin.service';
@@ -7,9 +8,11 @@ import { Loader } from '../components/ui/Loader';
 import { ErrorState } from '../components/ui/ErrorState';
 import { Badge } from '../components/ui/Badge';
 import { Button } from '../components/ui/Button';
+import { ConfirmDialog } from '../components/ui/ConfirmDialog';
 import { CollegeCard } from '../components/college/CollegeCard';
 import { ReviewList } from '../components/college/ReviewList';
 import { ReviewForm } from '../components/college/ReviewForm';
+import { CollegeDiscussions } from '../components/college/CollegeDiscussions';
 import { formatCurrency, formatRating, getCollegeTypeLabel } from '../utils/format';
 import { useAuthStore } from '../stores/authStore';
 import { useCompareStore } from '../stores/compareStore';
@@ -26,6 +29,7 @@ export const CollegeDetail = () => {
   const { addToCompare, isInCompare, removeFromCompare } = useCompareStore();
   const { mutate: saveCollege, isPending: isSaving } = useSaveCollege();
   const { mutate: removeSaved, isPending: isRemoving } = useRemoveSavedCollege();
+  const [deleteNoticeId, setDeleteNoticeId] = useState<string | null>(null);
 
   const queryClient = useQueryClient();
 
@@ -41,9 +45,7 @@ export const CollegeDetail = () => {
   });
 
   const handleDeleteNotice = (id: string) => {
-    if (window.confirm('Are you sure you want to delete this notice?')) {
-      deleteNoticeMutation.mutate(id);
-    }
+    setDeleteNoticeId(id);
   };
 
   if (isLoading) return <Loader text="Loading college details..." />;
@@ -217,12 +219,11 @@ export const CollegeDetail = () => {
                           )}
                         </div>
                         
-                        {user?.role === 'ADMIN' && (
+                          {user?.role === 'ADMIN' && (
                           <button
                             onClick={() => handleDeleteNotice(notice.id)}
                             className="text-gray-400 hover:text-red-500 p-1.5 rounded-lg hover:bg-red-50 transition-colors shrink-0"
                             title="Delete notice"
-                            disabled={deleteNoticeMutation.isPending}
                           >
                             <Trash2 className="w-4 h-4" />
                           </button>
@@ -338,6 +339,15 @@ export const CollegeDetail = () => {
                   </div>
                 )}
               </div>
+            </section>
+
+            {/* Q&A / Discussions */}
+            <section className="card p-6 md:p-8">
+              <h2 className="text-xl font-display font-bold text-gray-900 mb-6 flex items-center gap-2">
+                <MessageSquare className="w-5 h-5 text-primary-500" />
+                Q&A Discussions
+              </h2>
+              <CollegeDiscussions collegeId={college.id} />
             </section>
           </div>
 
@@ -475,6 +485,22 @@ export const CollegeDetail = () => {
           </div>
         </div>
       </div>
+
+      <ConfirmDialog
+        isOpen={deleteNoticeId !== null}
+        onConfirm={() => {
+          if (deleteNoticeId) {
+            deleteNoticeMutation.mutate(deleteNoticeId);
+            setDeleteNoticeId(null);
+          }
+        }}
+        onCancel={() => setDeleteNoticeId(null)}
+        title="Delete Notice"
+        message="Are you sure you want to delete this notice? This action cannot be undone."
+        confirmText="Delete"
+        variant="danger"
+        isLoading={deleteNoticeMutation.isPending}
+      />
     </div>
   );
 };

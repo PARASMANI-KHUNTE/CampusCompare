@@ -28,7 +28,10 @@ model User {
   avatarUrl String?
 
   savedColleges SavedCollege[]
+  savedComparisons SavedComparison[]
   reviews       Review[]
+  discussions   Discussion[]
+  answers       Answer[]
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -73,6 +76,7 @@ model College {
   reviews           Review[]
   savedBy           SavedCollege[]
   notices           Notice[]
+  discussions       Discussion[]
 
   createdAt         DateTime    @default(now())
   updatedAt         DateTime    @updatedAt
@@ -97,6 +101,7 @@ model Course {
   eligibility   String?
   examsAccepted String[]
   seats         Int?
+  cutoffRank    Int?
 
   college       College  @relation(fields: [collegeId], references: [id], onDelete: Cascade)
 
@@ -163,4 +168,52 @@ model Notice {
   @@index([collegeId])
 }
 
+model SavedComparison {
+  id        String   @id @default(cuid())
+  name      String
+  userId    String
+  colleges  String[]
 
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+}
+
+model Discussion {
+  id          String   @id @default(cuid())
+  title       String
+  content     String
+  userId      String
+  collegeId   String?  // Optional: can be global or specific to a college
+  upvotes     Int      @default(0)
+
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  college     College? @relation(fields: [collegeId], references: [id], onDelete: Cascade)
+  answers     Answer[]
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([userId])
+  @@index([collegeId])
+}
+
+model Answer {
+  id           String     @id @default(cuid())
+  content      String
+  discussionId String
+  userId       String
+  upvotes      Int        @default(0)
+  isAccepted   Boolean    @default(false)
+
+  discussion   Discussion @relation(fields: [discussionId], references: [id], onDelete: Cascade)
+  user         User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+
+  @@index([discussionId])
+  @@index([userId])
+}

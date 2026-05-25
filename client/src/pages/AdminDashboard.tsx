@@ -4,6 +4,7 @@ import { adminService } from '../services/admin.service';
 import { Loader } from '../components/ui/Loader';
 import { ErrorState } from '../components/ui/ErrorState';
 import { Button } from '../components/ui/Button';
+import { ConfirmDialog } from '../components/ui/ConfirmDialog';
 import { Trash2, Edit, GraduationCap, Plus, Building2, BookOpen, Star, Shield, Bell, Upload } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { College, Course } from '../types';
@@ -57,6 +58,7 @@ const CollegesSection = () => {
   const [selectedNoticeCollegeId, setSelectedNoticeCollegeId] = useState<string | null>(null);
   const [isNoticeModalOpen, setIsNoticeModalOpen] = useState(false);
   const [isBulkImportOpen, setIsBulkImportOpen] = useState(false);
+  const [deleteCollegeId, setDeleteCollegeId] = useState<string | null>(null);
 
   const { data: colleges, isLoading, isError } = useQuery({
     queryKey: ['admin-colleges'],
@@ -75,9 +77,7 @@ const CollegesSection = () => {
   });
 
   const handleDelete = (id: string) => {
-    if (window.confirm('Are you sure you want to delete this college?')) {
-      deleteMutation.mutate(id);
-    }
+    setDeleteCollegeId(id);
   };
 
   const handleEdit = (college: College) => {
@@ -179,6 +179,22 @@ const CollegesSection = () => {
         isOpen={isBulkImportOpen}
         onClose={() => setIsBulkImportOpen(false)}
       />
+
+      <ConfirmDialog
+        isOpen={deleteCollegeId !== null}
+        onConfirm={() => {
+          if (deleteCollegeId) {
+            deleteMutation.mutate(deleteCollegeId);
+            setDeleteCollegeId(null);
+          }
+        }}
+        onCancel={() => setDeleteCollegeId(null)}
+        title="Delete College"
+        message="Are you sure you want to delete this college? This action cannot be undone."
+        confirmText="Delete"
+        variant="danger"
+        isLoading={deleteMutation.isPending}
+      />
     </>
   );
 };
@@ -187,6 +203,7 @@ const CoursesSection = () => {
   const queryClient = useQueryClient();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [editingCourse, setEditingCourse] = useState<Course | null>(null);
+  const [deleteCourseId, setDeleteCourseId] = useState<string | null>(null);
 
   const { data: courses, isLoading, isError } = useQuery({
     queryKey: ['admin-courses'],
@@ -205,9 +222,7 @@ const CoursesSection = () => {
   });
 
   const handleDelete = (id: string) => {
-    if (window.confirm('Are you sure you want to delete this course?')) {
-      deleteMutation.mutate(id);
-    }
+    setDeleteCourseId(id);
   };
 
   const handleEdit = (course: Course) => {
@@ -279,6 +294,22 @@ const CoursesSection = () => {
         isOpen={isModalOpen} 
         onClose={() => setIsModalOpen(false)} 
         course={editingCourse} 
+      />
+
+      <ConfirmDialog
+        isOpen={deleteCourseId !== null}
+        onConfirm={() => {
+          if (deleteCourseId) {
+            deleteMutation.mutate(deleteCourseId);
+            setDeleteCourseId(null);
+          }
+        }}
+        onCancel={() => setDeleteCourseId(null)}
+        title="Delete Course"
+        message="Are you sure you want to delete this course? This action cannot be undone."
+        confirmText="Delete"
+        variant="danger"
+        isLoading={deleteMutation.isPending}
       />
     </>
   );

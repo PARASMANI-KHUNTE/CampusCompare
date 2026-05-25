@@ -12,6 +12,9 @@ import compareRoutes from './routes/compare.routes';
 import savedRoutes from './routes/saved.routes';
 import reviewRoutes from './routes/review.routes';
 import adminRoutes from './routes/admin.routes';
+import predictorRoutes from './routes/predictor.routes';
+import discussionRoutes from './routes/discussion.routes';
+import savedComparisonRoutes from './routes/saved-comparison.routes';
 
 const app = express();
 
@@ -50,6 +53,9 @@ app.use('/api/compare', compareRoutes);
 app.use('/api/saved-colleges', savedRoutes);
 app.use('/api/reviews', reviewRoutes);
 app.use('/api/admin', adminRoutes);
+app.use('/api/predictor', predictorRoutes);
+app.use('/api/discussions', discussionRoutes);
+app.use('/api/saved-comparisons', savedComparisonRoutes);
 
 // 404 handler
 app.use((_req, res) => {
