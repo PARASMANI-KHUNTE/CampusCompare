@@ -1,0 +1,149 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserRole {
+  USER
+  ADMIN
+}
+
+enum CollegeType {
+  GOVERNMENT
+  PRIVATE
+  DEEMED
+  AUTONOMOUS
+}
+
+model User {
+  id        String   @id @default(cuid())
+  name      String
+  email     String   @unique
+  password  String
+  role      UserRole @default(USER)
+  avatarUrl String?
+
+  savedColleges SavedCollege[]
+  reviews       Review[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model College {
+  id                String      @id @default(cuid())
+  name              String
+  slug              String      @unique
+  shortName         String?
+  description       String
+  overview          String?
+
+  city              String
+  state             String
+  address           String?
+  collegeType       CollegeType
+  ownership         String?
+  establishedYear   Int?
+  approvedBy        String[] @default([])
+  affiliatedTo      String?
+  accreditation     String[] @default([])
+
+  imageUrl          String?
+  officialUrl       String?
+  gallery           String[]
+
+  feesMin           Int
+  feesMax           Int
+  rating            Float       @default(0)
+  reviewCount       Int         @default(0)
+
+  placementAverage  Int?
+  placementHighest  Int?
+
+  examsAccepted     String[]
+  popularCourses    String[]
+  facilities        String[]
+  tags              String[]
+
+  courses           Course[]
+  reviews           Review[]
+  savedBy           SavedCollege[]
+
+  createdAt         DateTime    @default(now())
+  updatedAt         DateTime    @updatedAt
+
+  @@index([name])
+  @@index([city])
+  @@index([state])
+  @@index([rating])
+  @@index([feesMin])
+  @@index([feesMax])
+}
+
+model Course {
+  id            String   @id @default(cuid())
+  collegeId     String
+
+  name          String
+  category      String
+  degree        String?
+  duration      String
+  fees          Int
+  eligibility   String?
+  examsAccepted String[]
+  seats         Int?
+
+  college       College  @relation(fields: [collegeId], references: [id], onDelete: Cascade)
+
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([collegeId])
+  @@index([name])
+  @@index([category])
+}
+
+model Review {
+  id                    String   @id @default(cuid())
+  collegeId             String
+  userId                String
+
+  rating                Int
+  title                 String?
+  comment               String
+
+  placementRating       Int?
+  facultyRating         Int?
+  campusRating          Int?
+  valueForMoneyRating   Int?
+
+  college               College  @relation(fields: [collegeId], references: [id], onDelete: Cascade)
+  user                  User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+
+  @@index([collegeId])
+  @@index([userId])
+}
+
+model SavedCollege {
+  id        String   @id @default(cuid())
+  userId    String
+  collegeId String
+
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  college   College  @relation(fields: [collegeId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+
+  @@unique([userId, collegeId])
+  @@index([userId])
+  @@index([collegeId])
+}
+
+
