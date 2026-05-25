@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { Search, GraduationCap, Map, Users, ArrowRight, Star, Building2, BookOpen, TrendingUp, CheckCircle, Sparkles, Shield } from 'lucide-react';
+import { Search, Users, ArrowRight, Star, Building2, BookOpen, TrendingUp, CheckCircle, Sparkles, Shield } from 'lucide-react';
 import { Button } from '../components/ui/Button';
 
 export const Home = () => {

@@ -1,6 +1,8 @@
 import { useParams, useNavigate } from 'react-router-dom';
-import { MapPin, Star, Building2, CheckCircle2, IndianRupee, GraduationCap, Heart, ExternalLink, Clock, Award, Sparkles, Scale, Trophy } from 'lucide-react';
+import { MapPin, Star, Building2, CheckCircle2, IndianRupee, GraduationCap, Heart, ExternalLink, Clock, Award, Sparkles, Scale, Trophy, Bell, FileText, Trash2 } from 'lucide-react';
 import { useCollege, useRelatedColleges } from '../hooks/useColleges';
+import { useMutation, useQueryClient } from '@tanstack/react-query';
+import { adminService } from '../services/admin.service';
 import { Loader } from '../components/ui/Loader';
 import { ErrorState } from '../components/ui/ErrorState';
 import { Badge } from '../components/ui/Badge';
@@ -20,10 +22,29 @@ export const CollegeDetail = () => {
   const { data: college, isLoading, isError, refetch } = useCollege(slug!);
   const { data: relatedColleges } = useRelatedColleges(slug!);
   const { data: savedColleges } = useSavedColleges();
-  const { isAuthenticated } = useAuthStore();
+  const { isAuthenticated, user } = useAuthStore();
   const { addToCompare, isInCompare, removeFromCompare } = useCompareStore();
   const { mutate: saveCollege, isPending: isSaving } = useSaveCollege();
   const { mutate: removeSaved, isPending: isRemoving } = useRemoveSavedCollege();
+
+  const queryClient = useQueryClient();
+
+  const deleteNoticeMutation = useMutation({
+    mutationFn: adminService.deleteNotice,
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['college', slug] });
+      toast.success('Notice deleted successfully');
+    },
+    onError: () => {
+      toast.error('Failed to delete notice');
+    },
+  });
+
+  const handleDeleteNotice = (id: string) => {
+    if (window.confirm('Are you sure you want to delete this notice?')) {
+      deleteNoticeMutation.mutate(id);
+    }
+  };
 
   if (isLoading) return <Loader text="Loading college details..." />;
   if (isError || !college) return <ErrorState message="Failed to load college details" onRetry={() => refetch()} />;
@@ -53,7 +74,15 @@ export const CollegeDetail = () => {
       {/* Header Banner */}
       <div className="relative h-72 md:h-96 w-full bg-gray-900 overflow-hidden">
         {college.imageUrl ? (
-          <img src={college.imageUrl} alt={college.name} className="w-full h-full object-cover opacity-60 scale-105" />
+          <img 
+            src={college.imageUrl} 
+            alt={college.name} 
+            className="w-full h-full object-cover opacity-60 scale-105" 
+            onError={(e) => {
+              e.currentTarget.onerror = null;
+              e.currentTarget.src = 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80';
+            }}
+          />
         ) : (
           <div className="w-full h-full flex items-center justify-center opacity-40">
             <Building2 className="w-24 h-24 text-white" />
@@ -148,6 +177,66 @@ export const CollegeDetail = () => {
                   </div>
                 ))}
               </div>
+            </section>
+
+            {/* Updates & Notices */}
+            <section className="card p-6 md:p-8">
+              <h2 className="text-xl font-display font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <Bell className="w-5 h-5 text-primary-500" />
+                Updates & Notices
+              </h2>
+              {college.notices && college.notices.length > 0 ? (
+                <div className="space-y-4">
+                  {college.notices.map((notice) => (
+                    <div key={notice.id} className="p-5 border border-gray-100 rounded-xl bg-gray-50/50 hover:bg-gray-50 transition-colors relative">
+                      <div className="flex justify-between items-start gap-4">
+                        <div className="flex-1">
+                          <h4 className="font-semibold text-gray-900">{notice.title}</h4>
+                          <p className="text-xs text-gray-400 mt-1 flex items-center gap-1.5">
+                            <Clock className="w-3.5 h-3.5" />
+                            {new Date(notice.createdAt).toLocaleDateString('en-IN', {
+                              day: 'numeric',
+                              month: 'short',
+                              year: 'numeric'
+                            })}
+                          </p>
+                          <p className="text-gray-600 text-sm mt-3 leading-relaxed whitespace-pre-line">{notice.content}</p>
+                          
+                          {notice.attachmentUrl && (
+                            <div className="mt-4">
+                              <a
+                                href={notice.attachmentUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-2 text-xs font-semibold text-primary-600 hover:text-primary-700 bg-primary-50 hover:bg-primary-100 px-3 py-1.5 rounded-lg transition-colors"
+                              >
+                                <FileText className="w-3.5 h-3.5" />
+                                View Attachment
+                              </a>
+                            </div>
+                          )}
+                        </div>
+                        
+                        {user?.role === 'ADMIN' && (
+                          <button
+                            onClick={() => handleDeleteNotice(notice.id)}
+                            className="text-gray-400 hover:text-red-500 p-1.5 rounded-lg hover:bg-red-50 transition-colors shrink-0"
+                            title="Delete notice"
+                            disabled={deleteNoticeMutation.isPending}
+                          >
+                            <Trash2 className="w-4 h-4" />
+                          </button>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div className="text-center py-8 border border-dashed border-gray-200 rounded-xl bg-gray-50/30">
+                  <Bell className="w-8 h-8 text-gray-300 mx-auto mb-2" />
+                  <p className="text-sm font-medium text-gray-500">No updates or notices posted at this time.</p>
+                </div>
+              )}
             </section>
 
             {/* Courses */}
@@ -351,7 +440,15 @@ export const CollegeDetail = () => {
                     >
                       <div className="w-14 h-14 bg-gray-100 rounded-lg overflow-hidden shrink-0">
                         {related.imageUrl ? (
-                          <img src={related.imageUrl} alt={related.name} className="w-full h-full object-cover" />
+                          <img 
+                            src={related.imageUrl} 
+                            alt={related.name} 
+                            className="w-full h-full object-cover" 
+                            onError={(e) => {
+                              e.currentTarget.onerror = null;
+                              e.currentTarget.src = 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=300&q=80';
+                            }}
+                          />
                         ) : (
                           <div className="w-full h-full flex items-center justify-center text-gray-300">
                             <Building2 className="w-6 h-6" />

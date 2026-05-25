@@ -4,11 +4,13 @@ import { adminService } from '../services/admin.service';
 import { Loader } from '../components/ui/Loader';
 import { ErrorState } from '../components/ui/ErrorState';
 import { Button } from '../components/ui/Button';
-import { Trash2, Edit, GraduationCap, Plus, Building2, BookOpen, Star, Shield } from 'lucide-react';
+import { Trash2, Edit, GraduationCap, Plus, Building2, BookOpen, Star, Shield, Bell, Upload } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { College, Course } from '../types';
 import { CollegeFormModal } from '../components/admin/CollegeFormModal';
 import { CourseFormModal } from '../components/admin/CourseFormModal';
+import { NoticeFormModal } from '../components/admin/NoticeFormModal';
+import { BulkImportModal } from '../components/admin/BulkImportModal';
 
 const StatsCards = () => {
   const { data: colleges, isLoading: loadingColleges } = useQuery({
@@ -52,6 +54,9 @@ const CollegesSection = () => {
   const queryClient = useQueryClient();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [editingCollege, setEditingCollege] = useState<College | null>(null);
+  const [selectedNoticeCollegeId, setSelectedNoticeCollegeId] = useState<string | null>(null);
+  const [isNoticeModalOpen, setIsNoticeModalOpen] = useState(false);
+  const [isBulkImportOpen, setIsBulkImportOpen] = useState(false);
 
   const { data: colleges, isLoading, isError } = useQuery({
     queryKey: ['admin-colleges'],
@@ -99,9 +104,14 @@ const CollegesSection = () => {
             </h2>
             <p className="text-xs text-gray-500 mt-0.5">Manage college listings</p>
           </div>
-          <Button size="sm" onClick={handleAdd}>
-            <Plus className="w-4 h-4 mr-1" /> Add College
-          </Button>
+          <div className="flex gap-2">
+            <Button size="sm" variant="outline" onClick={() => setIsBulkImportOpen(true)}>
+              <Upload className="w-4 h-4 mr-1" /> Bulk Import
+            </Button>
+            <Button size="sm" onClick={handleAdd}>
+              <Plus className="w-4 h-4 mr-1" /> Add College
+            </Button>
+          </div>
         </div>
         <div className="overflow-x-auto">
           <table className="w-full text-left min-w-[600px]">
@@ -123,6 +133,16 @@ const CollegesSection = () => {
                   <td className="p-4 text-gray-600 text-sm">{college.city}, {college.state}</td>
                   <td className="p-4">
                     <div className="flex gap-2">
+                      <button 
+                        className="text-gray-400 hover:text-emerald-600 p-1.5 rounded-lg hover:bg-emerald-50 transition-all" 
+                        onClick={() => {
+                          setSelectedNoticeCollegeId(college.id);
+                          setIsNoticeModalOpen(true);
+                        }}
+                        title="Post Notice"
+                      >
+                        <Bell className="w-4 h-4" />
+                      </button>
                       <button className="text-gray-400 hover:text-primary-600 p-1.5 rounded-lg hover:bg-primary-50 transition-all" onClick={() => handleEdit(college)}>
                         <Edit className="w-4 h-4" />
                       </button>
@@ -142,6 +162,22 @@ const CollegesSection = () => {
         isOpen={isModalOpen} 
         onClose={() => setIsModalOpen(false)} 
         college={editingCollege} 
+      />
+
+      {selectedNoticeCollegeId && (
+        <NoticeFormModal
+          isOpen={isNoticeModalOpen}
+          onClose={() => {
+            setIsNoticeModalOpen(false);
+            setSelectedNoticeCollegeId(null);
+          }}
+          collegeId={selectedNoticeCollegeId}
+        />
+      )}
+
+      <BulkImportModal
+        isOpen={isBulkImportOpen}
+        onClose={() => setIsBulkImportOpen(false)}
       />
     </>
   );

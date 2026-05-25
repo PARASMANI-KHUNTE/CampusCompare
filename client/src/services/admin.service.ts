@@ -27,6 +27,11 @@ export const adminService = {
     return response.data;
   },
 
+  bulkImportColleges: async (colleges: any[]) => {
+    const response = await api.post('/admin/colleges/bulk', { colleges });
+    return response.data.data;
+  },
+
   uploadCollegeImage: async (id: string, file: File) => {
     const formData = new FormData();
     formData.append('image', file);
@@ -36,6 +41,24 @@ export const adminService = {
       },
     });
     return response.data.data.college;
+  },
+
+  createNotice: async (collegeId: string, data: { title: string; content: string; attachment?: File }) => {
+    const formData = new FormData();
+    formData.append('title', data.title);
+    formData.append('content', data.content);
+    if (data.attachment) {
+      formData.append('attachment', data.attachment);
+    }
+    const response = await api.post(`/admin/colleges/${collegeId}/notices`, formData, {
+      headers: { 'Content-Type': 'multipart/form-data' },
+    });
+    return response.data.data.notice;
+  },
+
+  deleteNotice: async (id: string) => {
+    const response = await api.delete(`/admin/notices/${id}`);
+    return response.data;
   },
 
   getCourses: async () => {

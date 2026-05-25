@@ -38,6 +38,16 @@ export interface College {
   tags: string[];
   courses?: Course[];
   reviews?: Review[];
+  notices?: Notice[];
+  createdAt: string;
+}
+
+export interface Notice {
+  id: string;
+  collegeId: string;
+  title: string;
+  content: string;
+  attachmentUrl?: string;
   createdAt: string;
 }
 

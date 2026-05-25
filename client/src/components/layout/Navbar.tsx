@@ -57,10 +57,10 @@ export const Navbar = () => {
                 <NavLink
                   to={link.path}
                   className={({ isActive }) =>
-                    `relative text-sm font-medium transition-colors duration-200 py-2 ${
+                    `text-sm font-medium transition-all duration-200 py-2 border-b-2 ${
                       isActive
-                        ? 'text-primary-600 after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-primary-600 after:rounded-full'
-                        : 'text-gray-600 hover:text-primary-600'
+                        ? 'text-primary-600 border-primary-600'
+                        : 'text-gray-600 hover:text-primary-600 border-transparent'
                     }`
                   }
                 >

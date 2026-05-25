@@ -53,3 +53,42 @@ export const uploadCollegeImage = asyncHandler(async (req: Request, res: Respons
   return successResponse(res, 'Image uploaded successfully', { college });
 });
 
+export const createNotice = asyncHandler(async (req: Request, res: Response) => {
+  // If there's an uploaded file (like an image), we use it as attachmentUrl
+  const data = { ...req.body };
+  if (req.file) {
+    data.attachmentUrl = req.file.path;
+  }
+  
+  const notice = await adminService.createNotice(req.params.collegeId, data);
+  return successResponse(res, 'Notice created successfully', { notice }, 201);
+});
+
+export const deleteNotice = asyncHandler(async (req: Request, res: Response) => {
+  await adminService.deleteNotice(req.params.id);
+  return successResponse(res, 'Notice deleted successfully');
+});
+
+export const bulkImportColleges = asyncHandler(async (req: Request, res: Response) => {
+  const { colleges } = req.body;
+  if (!colleges || !Array.isArray(colleges)) {
+    return res.status(400).json({ success: false, message: 'Invalid or missing colleges array' });
+  }
+
+  const results = await adminService.bulkCreateColleges(colleges);
+  
+  const createdCount = results.filter(r => r.status === 'created').length;
+  const skippedCount = results.filter(r => r.status === 'skipped').length;
+  const failedCount = results.filter(r => r.status === 'failed').length;
+
+  return successResponse(res, 'Bulk import completed', {
+    summary: {
+      total: colleges.length,
+      created: createdCount,
+      skipped: skippedCount,
+      failed: failedCount
+    },
+    results
+  });
+});
+

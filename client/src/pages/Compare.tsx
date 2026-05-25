@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Plus, X, ArrowLeft, CheckCircle2, Star, TrendingUp, DollarSign, Trophy, BookOpen, Building2, Search, MapPin, GraduationCap, IndianRupee, Check } from 'lucide-react';
+import { Plus, X, ArrowLeft, CheckCircle2, Star, TrendingUp, DollarSign, Trophy, BookOpen, Building2, Search, MapPin, GraduationCap, IndianRupee } from 'lucide-react';
 import { useQuery } from '@tanstack/react-query';
 import { useCompare } from '../hooks/useCompare';
 import { useCompareStore } from '../stores/compareStore';

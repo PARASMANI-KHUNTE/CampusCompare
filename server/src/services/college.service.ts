@@ -105,6 +105,9 @@ export const getCollegeBySlug = async (slug: string) => {
         },
         orderBy: { createdAt: 'desc' },
       },
+      notices: {
+        orderBy: { createdAt: 'desc' },
+      },
       _count: {
         select: { savedBy: true }
       }

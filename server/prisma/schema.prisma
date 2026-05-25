@@ -72,6 +72,7 @@ model College {
   courses           Course[]
   reviews           Review[]
   savedBy           SavedCollege[]
+  notices           Notice[]
 
   createdAt         DateTime    @default(now())
   updatedAt         DateTime    @updatedAt
@@ -143,6 +144,22 @@ model SavedCollege {
 
   @@unique([userId, collegeId])
   @@index([userId])
+  @@index([collegeId])
+}
+
+model Notice {
+  id            String   @id @default(cuid())
+  collegeId     String
+  
+  title         String
+  content       String
+  attachmentUrl String?
+  
+  college       College  @relation(fields: [collegeId], references: [id], onDelete: Cascade)
+  
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  
   @@index([collegeId])
 }
 

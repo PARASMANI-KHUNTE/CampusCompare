@@ -1,0 +1,4438 @@
+{
+  "colleges": [
+    {
+      "name": "Amity University Noida",
+      "shortName": "Amity Noida",
+      "description": "A leading private university in North India with a focus on innovation, research, and global education.",
+      "overview": "Amity University was established in 2005 and is part of the Amity Education Group. It offers programs across engineering, management, law, and humanities.",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "address": null,
+      "collegeType": "PRIVATE",
+      "ownership": null,
+      "establishedYear": 2005,
+      "approvedBy": [
+        "UGC"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.amity.edu/",
+      "gallery": [],
+      "feesMin": 200000,
+      "feesMax": 500000,
+      "rating": 4,
+      "reviewCount": 1500,
+      "placementAverage": 600000,
+      "placementHighest": 3000000,
+      "examsAccepted": [
+        "Amity JEE"
+      ],
+      "popularCourses": [
+        "B.Tech",
+        "MBA",
+        "BBA",
+        "BA LLB",
+        "B.Des"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports",
+        "Auditorium",
+        "Cafeteria",
+        "Medical"
+      ],
+      "tags": [
+        "Private",
+        "Multidisciplinary",
+        "North India"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 410000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "MBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "2 Years",
+          "fees": 369000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "BBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 328000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Pune Institute of Computer Technology",
+      "shortName": "PICT",
+      "description": "A leading engineering college in Pune known for its excellent computer science and IT programs.",
+      "overview": "PICT was established in 1983 and has been consistently ranked among the top private engineering colleges in Maharashtra.",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "address": null,
+      "collegeType": "PRIVATE",
+      "ownership": null,
+      "establishedYear": 1983,
+      "approvedBy": [
+        "AICTE"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1525926472898-1c4b78f89e5a?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://pict.edu/",
+      "gallery": [],
+      "feesMin": 120000,
+      "feesMax": 180000,
+      "rating": 4.3,
+      "reviewCount": 720,
+      "placementAverage": 1200000,
+      "placementHighest": 5500000,
+      "examsAccepted": [
+        "JEE Main",
+        "MHT-CET"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech IT",
+        "M.Tech CSE"
+      ],
+      "facilities": [
+        "Library",
+        "Sports",
+        "Cafeteria",
+        "Wi-Fi",
+        "Auditorium"
+      ],
+      "tags": [
+        "Engineering",
+        "Computer Science",
+        "Pune"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 162000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech IT",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 145800,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "M.Tech CSE",
+          "category": "Engineering",
+          "degree": "M.Tech",
+          "duration": "2 Years",
+          "fees": 129600,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "National Institute of Technology Raipur",
+      "shortName": "NIT Raipur",
+      "description": "An Institute of National Importance offering quality engineering education in central India.",
+      "overview": "Founded in 1956, NIT Raipur offers various UG and PG programs in engineering and architecture.",
+      "city": "Raipur",
+      "state": "Chhattisgarh",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": null,
+      "approvedBy": [],
+      "affiliatedTo": null,
+      "accreditation": [],
+      "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.nitrr.ac.in/",
+      "gallery": [],
+      "feesMin": 70000,
+      "feesMax": 140000,
+      "rating": 3.5,
+      "reviewCount": 2,
+      "placementAverage": 800000,
+      "placementHighest": 4000000,
+      "examsAccepted": [
+        "JEE Main",
+        "GATE"
+      ],
+      "popularCourses": [
+        "B.Tech Information Technology",
+        "B.Tech Mining"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Cafeteria",
+        "Sports"
+      ],
+      "tags": [
+        "Engineering",
+        "NIT"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech Information Technology",
+          "category": "Engineering",
+          "degree": null,
+          "duration": "4 Years",
+          "fees": 140000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Vellore Institute of Technology",
+      "shortName": "VIT Vellore",
+      "description": "A top-ranked private deemed university offering a wide range of academic programs.",
+      "overview": "VIT is known for its extensive campus, global tie-ups, and excellent placement record.",
+      "city": "Vellore",
+      "state": "Tamil Nadu",
+      "address": null,
+      "collegeType": "DEEMED",
+      "ownership": null,
+      "establishedYear": null,
+      "approvedBy": [],
+      "affiliatedTo": null,
+      "accreditation": [],
+      "imageUrl": "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://vit.ac.in/",
+      "gallery": [],
+      "feesMin": 150000,
+      "feesMax": 300000,
+      "rating": 3.5,
+      "reviewCount": 2,
+      "placementAverage": 900000,
+      "placementHighest": 6000000,
+      "examsAccepted": [
+        "VITEEE"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "BCA",
+        "MCA"
+      ],
+      "facilities": [
+        "AC Hostels",
+        "Swimming Pool",
+        "Gym",
+        "Smart Classrooms"
+      ],
+      "tags": [
+        "Engineering",
+        "Private",
+        "Placement"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": null,
+          "duration": "4 Years",
+          "fees": 300000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "SRM Institute of Science and Technology",
+      "shortName": "SRM",
+      "description": "A leading private university known for its sprawling campus, diverse programs, and strong industry connections.",
+      "overview": "SRM IST was established in 1985 and has grown into one of the largest private universities in India with multiple campuses across Tamil Nadu.",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "address": null,
+      "collegeType": "DEEMED",
+      "ownership": null,
+      "establishedYear": 1985,
+      "approvedBy": [
+        "UGC"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.srmist.edu.in/",
+      "gallery": [],
+      "feesMin": 180000,
+      "feesMax": 350000,
+      "rating": 4.1,
+      "reviewCount": 1900,
+      "placementAverage": 750000,
+      "placementHighest": 4500000,
+      "examsAccepted": [
+        "SRMJEEE"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech ECE",
+        "MBA",
+        "BBA"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports Complex",
+        "Gym",
+        "Pool",
+        "Food Court"
+      ],
+      "tags": [
+        "Engineering",
+        "Private",
+        "Multi-campus"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 298999,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech ECE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 269100,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "MBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "2 Years",
+          "fees": 239200,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Indian Institute of Technology Bombay",
+      "shortName": "IIT Bombay",
+      "description": "One of the most prestigious engineering institutes globally, known for world-class research and innovation.",
+      "overview": "Founded in 1958, IIT Bombay is located in Powai, Mumbai. It is consistently ranked among the top engineering institutes in Asia and the world.",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1958,
+      "approvedBy": [
+        "UGC",
+        "MHRD"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.iitb.ac.in/",
+      "gallery": [],
+      "feesMin": 115000,
+      "feesMax": 230000,
+      "rating": 4.9,
+      "reviewCount": 1500,
+      "placementAverage": 2800000,
+      "placementHighest": 15000000,
+      "examsAccepted": [
+        "JEE Advanced",
+        "GATE"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech Aerospace",
+        "M.Tech Data Science",
+        "PhD"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Swimming Pool",
+        "Sports Complex",
+        "Research Labs",
+        "Medical"
+      ],
+      "tags": [
+        "Engineering",
+        "Top Ranked",
+        "Research",
+        "IIT"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 195500,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Aerospace",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 175950,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "M.Tech Data Science",
+          "category": "Engineering",
+          "degree": "M.Tech",
+          "duration": "2 Years",
+          "fees": 156400,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Chandigarh University",
+      "shortName": "CU",
+      "description": "A leading private university in Punjab known for its excellent placement record and global collaborations.",
+      "overview": "Chandigarh University (CU) was established in 2012 and has quickly risen to become one of the top private universities in North India with excellent industry connections.",
+      "city": "Mohali",
+      "state": "Punjab",
+      "address": null,
+      "collegeType": "PRIVATE",
+      "ownership": null,
+      "establishedYear": 2012,
+      "approvedBy": [
+        "UGC"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.cuchd.in/",
+      "gallery": [],
+      "feesMin": 160000,
+      "feesMax": 320000,
+      "rating": 4.2,
+      "reviewCount": 1300,
+      "placementAverage": 850000,
+      "placementHighest": 4700000,
+      "examsAccepted": [
+        "CUCET"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "MBA",
+        "BBA",
+        "BCA"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports Stadium",
+        "Gym",
+        "Wi-Fi",
+        "Bank"
+      ],
+      "tags": [
+        "Private",
+        "Placement",
+        "Chandigarh"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 272000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "MBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "2 Years",
+          "fees": 244800,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "BBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 217600,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Anna University",
+      "shortName": "Anna Univ",
+      "description": "A premier technical university in Tamil Nadu, known for its vast network of affiliated colleges.",
+      "overview": "Anna University was established in 1978 and is one of the top technical universities in India with a strong focus on engineering and technology education.",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1978,
+      "approvedBy": [
+        "UGC"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1525926472898-1c4b78f89e5a?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.annauniv.edu/",
+      "gallery": [],
+      "feesMin": 50000,
+      "feesMax": 120000,
+      "rating": 4.3,
+      "reviewCount": 920,
+      "placementAverage": 900000,
+      "placementHighest": 5000000,
+      "examsAccepted": [
+        "TNEA",
+        "GATE",
+        "TANCET"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech ECE",
+        "M.Tech",
+        "MCA"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports",
+        "Wi-Fi",
+        "Medical"
+      ],
+      "tags": [
+        "Engineering",
+        "State University",
+        "Chennai"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 99000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech ECE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 89100,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "M.Tech",
+          "category": "Engineering",
+          "degree": "M.Tech",
+          "duration": "2 Years",
+          "fees": 79200,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Jamia Millia Islamia",
+      "shortName": "Jamia",
+      "description": "A central university in Delhi offering diverse programs with a strong emphasis on research and inclusivity.",
+      "overview": "Jamia Millia Islamia was established in 1920 and became a central university in 1988. It offers programs across engineering, humanities, law, and sciences.",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1920,
+      "approvedBy": [
+        "UGC"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.jmi.ac.in/",
+      "gallery": [],
+      "feesMin": 25000,
+      "feesMax": 80000,
+      "rating": 4.1,
+      "reviewCount": 670,
+      "placementAverage": 600000,
+      "placementHighest": 3000000,
+      "examsAccepted": [
+        "JEE Main",
+        "CUET"
+      ],
+      "popularCourses": [
+        "B.Tech",
+        "BA",
+        "LLB",
+        "MBA",
+        "M.Sc"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports",
+        "Medical",
+        "Auditorium"
+      ],
+      "tags": [
+        "Central University",
+        "Delhi",
+        "Multidisciplinary"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 63500,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "BA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 57150,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "LLB",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 50800,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "University of Delhi",
+      "shortName": "DU",
+      "description": "One of the largest and most prestigious universities in India, known for its academic excellence across disciplines.",
+      "overview": "Established in 1922, the University of Delhi is a central university located in Delhi with over 90 colleges affiliated to it.",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1922,
+      "approvedBy": [
+        "UGC"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.du.ac.in/",
+      "gallery": [],
+      "feesMin": 15000,
+      "feesMax": 50000,
+      "rating": 4.3,
+      "reviewCount": 2500,
+      "placementAverage": 500000,
+      "placementHighest": 2500000,
+      "examsAccepted": [
+        "CUET"
+      ],
+      "popularCourses": [
+        "BA",
+        "B.Com",
+        "B.Sc",
+        "MA",
+        "MCA"
+      ],
+      "facilities": [
+        "Library",
+        "Sports",
+        "Auditorium",
+        "Wi-Fi",
+        "Medical"
+      ],
+      "tags": [
+        "Central University",
+        "Delhi",
+        "Arts & Science"
+      ],
+      "courses": [
+        {
+          "name": "BA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 39500,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Com",
+          "category": "General",
+          "degree": "B.Com",
+          "duration": "4 Years",
+          "fees": 35550,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Sc",
+          "category": "General",
+          "degree": "B.Sc",
+          "duration": "4 Years",
+          "fees": 31600,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Indian Institute of Technology Kharagpur",
+      "shortName": "IIT KGP",
+      "description": "The first IIT established in India, known for its vast campus and pioneering research.",
+      "overview": "IIT Kharagpur was established in 1951 as the first IIT. It has the largest campus among all IITs and offers programs in engineering, law, medicine, and management.",
+      "city": "Kharagpur",
+      "state": "West Bengal",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1951,
+      "approvedBy": [
+        "UGC",
+        "MHRD"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.iitkgp.ac.in/",
+      "gallery": [],
+      "feesMin": 110000,
+      "feesMax": 220000,
+      "rating": 4.7,
+      "reviewCount": 1350,
+      "placementAverage": 2400000,
+      "placementHighest": 11000000,
+      "examsAccepted": [
+        "JEE Advanced",
+        "GATE",
+        "CAT"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech Mechanical",
+        "MBA",
+        "LLB"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Hospital",
+        "Sports Stadium",
+        "Innovation Lab"
+      ],
+      "tags": [
+        "Engineering",
+        "Top Ranked",
+        "IIT",
+        "Research"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 187000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Mechanical",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 168300,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "MBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "2 Years",
+          "fees": 149600,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Birla Institute of Technology and Science Pilani",
+      "shortName": "BITS Pilani",
+      "description": "A premier deemed university known for its rigorous academic programs and excellent placement record.",
+      "overview": "BITS Pilani was established in 1964 and is one of India's leading private institutes for engineering and sciences with campuses in Pilani, Goa, and Hyderabad.",
+      "city": "Pilani",
+      "state": "Rajasthan",
+      "address": null,
+      "collegeType": "DEEMED",
+      "ownership": null,
+      "establishedYear": 1964,
+      "approvedBy": [
+        "UGC"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1592289140166-07d2ab28b0ce?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.bits-pilani.ac.in/",
+      "gallery": [],
+      "feesMin": 250000,
+      "feesMax": 450000,
+      "rating": 4.6,
+      "reviewCount": 1150,
+      "placementAverage": 2000000,
+      "placementHighest": 9000000,
+      "examsAccepted": [
+        "BITSAT"
+      ],
+      "popularCourses": [
+        "B.E. CSE",
+        "B.E. ECE",
+        "M.Sc",
+        "MBA"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports Complex",
+        "Gym",
+        "Medical",
+        "Bank"
+      ],
+      "tags": [
+        "Engineering",
+        "Top Private",
+        "Placement"
+      ],
+      "courses": [
+        {
+          "name": "B.E. CSE",
+          "category": "Engineering",
+          "degree": "B.E",
+          "duration": "4 Years",
+          "fees": 390000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.E. ECE",
+          "category": "Engineering",
+          "degree": "B.E",
+          "duration": "4 Years",
+          "fees": 351000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "M.Sc",
+          "category": "General",
+          "degree": "M.Sc",
+          "duration": "2 Years",
+          "fees": 312000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Manipal Institute of Technology",
+      "shortName": "MIT Manipal",
+      "description": "A leading private engineering institute in Karnataka with a strong focus on innovation and research.",
+      "overview": "MIT Manipal was established in 1957 as one of the first private engineering colleges in India. It offers undergraduate and postgraduate programs in engineering and technology.",
+      "city": "Manipal",
+      "state": "Karnataka",
+      "address": null,
+      "collegeType": "PRIVATE",
+      "ownership": null,
+      "establishedYear": 1957,
+      "approvedBy": [
+        "AICTE"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://manipal.edu/mit.html",
+      "gallery": [],
+      "feesMin": 280000,
+      "feesMax": 450000,
+      "rating": 4.4,
+      "reviewCount": 840,
+      "placementAverage": 1100000,
+      "placementHighest": 5500000,
+      "examsAccepted": [
+        "MET"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech ECE",
+        "B.Tech Mechanical"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports",
+        "Gym",
+        "Hospital",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "Engineering",
+        "Private",
+        "Karnataka"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 398999,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech ECE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 359100,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Mechanical",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 319200,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "College of Engineering Pune",
+      "shortName": "COEP",
+      "description": "One of the oldest engineering colleges in India, known for its academic legacy and strong alumni network.",
+      "overview": "COEP was established in 1854 and is one of the oldest engineering colleges in Asia. It offers undergraduate and postgraduate programs in engineering and technology.",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1854,
+      "approvedBy": [
+        "AICTE"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A",
+        "NBA"
+      ],
+      "imageUrl": "https://res.cloudinary.com/df17ydssn/image/upload/v1779701519/campuscompare/colleges/zgzyqypwhzzofce5uowe.jpg",
+      "officialUrl": "https://www.coeptech.ac.in/",
+      "gallery": [],
+      "feesMin": 60000,
+      "feesMax": 130000,
+      "rating": 4.3,
+      "reviewCount": 720,
+      "placementAverage": 1100000,
+      "placementHighest": 5500000,
+      "examsAccepted": [
+        "JEE Main",
+        "MHT-CET",
+        "GATE"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech Mechanical",
+        "B.Tech Civil",
+        "M.Tech"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports",
+        "Wi-Fi",
+        "Heritage Campus"
+      ],
+      "tags": [
+        "Engineering",
+        "Heritage",
+        "Top Ranked"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 109000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Mechanical",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 98100,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Civil",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 87200,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Amrita Vishwa Vidyapeetham",
+      "shortName": "Amrita",
+      "description": "A top-ranked private deemed university with multiple campuses across India.",
+      "overview": "Amrita Vishwa Vidyapeetham was established in 2003 and has grown into one of the top private universities in India with campuses in Coimbatore, Bengaluru, and Kochi.",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "address": null,
+      "collegeType": "DEEMED",
+      "ownership": null,
+      "establishedYear": 2003,
+      "approvedBy": [
+        "UGC"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A++",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.amrita.edu/",
+      "gallery": [],
+      "feesMin": 200000,
+      "feesMax": 400000,
+      "rating": 4.3,
+      "reviewCount": 860,
+      "placementAverage": 950000,
+      "placementHighest": 5000000,
+      "examsAccepted": [
+        "Amrita Entrance"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech ECE",
+        "MBA",
+        "BBA"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports",
+        "Gym",
+        "Medical",
+        "Yoga Center"
+      ],
+      "tags": [
+        "Private",
+        "Deemed",
+        "Multi-campus"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 340000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech ECE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 306000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "MBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "2 Years",
+          "fees": 272000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Siksha O Anusandhan University",
+      "shortName": "SOA",
+      "description": "A top private deemed university in Odisha known for its engineering and medical programs.",
+      "overview": "SOA University was established in 2007 and offers programs across engineering, medicine, management, and law with a strong focus on research.",
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "address": null,
+      "collegeType": "DEEMED",
+      "ownership": null,
+      "establishedYear": 2007,
+      "approvedBy": [
+        "UGC"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.soa.ac.in/",
+      "gallery": [],
+      "feesMin": 180000,
+      "feesMax": 350000,
+      "rating": 3.9,
+      "reviewCount": 520,
+      "placementAverage": 550000,
+      "placementHighest": 2800000,
+      "examsAccepted": [
+        "OJEE",
+        "NEET"
+      ],
+      "popularCourses": [
+        "B.Tech",
+        "MBBS",
+        "MBA",
+        "B.Sc"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Hospital",
+        "Sports",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "Private",
+        "Deemed",
+        "Odisha"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 298999,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "MBBS",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 269100,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "MBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "2 Years",
+          "fees": 239200,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Lovely Professional University",
+      "shortName": "LPU",
+      "description": "One of the largest private universities in India with a diverse range of academic programs.",
+      "overview": "LPU was established in 2005 and has one of the largest campuses in India. It offers over 200 programs across multiple disciplines.",
+      "city": "Phagwara",
+      "state": "Punjab",
+      "address": null,
+      "collegeType": "PRIVATE",
+      "ownership": null,
+      "establishedYear": 2005,
+      "approvedBy": [
+        "UGC"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.lpu.in/",
+      "gallery": [],
+      "feesMin": 160000,
+      "feesMax": 350000,
+      "rating": 4,
+      "reviewCount": 1600,
+      "placementAverage": 650000,
+      "placementHighest": 3000000,
+      "examsAccepted": [
+        "LPUNEST"
+      ],
+      "popularCourses": [
+        "B.Tech",
+        "MBA",
+        "BBA",
+        "BCA",
+        "BA LLB"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports",
+        "Gym",
+        "Shopping Complex",
+        "Bank"
+      ],
+      "tags": [
+        "Private",
+        "Large Campus",
+        "Multidisciplinary"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 293000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "MBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "2 Years",
+          "fees": 263700,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "BBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 234400,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Indian Statistical Institute",
+      "shortName": "ISI",
+      "description": "India's premier institute for statistics, mathematics, and data science research and education.",
+      "overview": "ISI was founded in 1931 by Professor P.C. Mahalanobis. It is an Institute of National Importance under the Ministry of Statistics and Programme Implementation.",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "address": null,
+      "collegeType": "AUTONOMOUS",
+      "ownership": null,
+      "establishedYear": 1931,
+      "approvedBy": [
+        "MHRD"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [],
+      "imageUrl": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.isical.ac.in/",
+      "gallery": [],
+      "feesMin": 30000,
+      "feesMax": 80000,
+      "rating": 4.7,
+      "reviewCount": 280,
+      "placementAverage": 1800000,
+      "placementHighest": 8000000,
+      "examsAccepted": [
+        "ISI Entrance"
+      ],
+      "popularCourses": [
+        "B.Stat",
+        "M.Stat",
+        "MS Data Science",
+        "PhD"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Research Labs",
+        "Wi-Fi",
+        "Auditorium"
+      ],
+      "tags": [
+        "Statistics",
+        "Data Science",
+        "Research",
+        "Top Ranked"
+      ],
+      "courses": [
+        {
+          "name": "B.Stat",
+          "category": "General",
+          "degree": "B.Stat",
+          "duration": "4 Years",
+          "fees": 65000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "M.Stat",
+          "category": "General",
+          "degree": "M.Stat",
+          "duration": "2 Years",
+          "fees": 58500,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "MS Data Science",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 52000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Indian Institute of Technology Delhi",
+      "shortName": "IIT Delhi",
+      "description": "One of the prestigious IITs in India, known for excellence in engineering and technology.",
+      "overview": "Established in 1961, IIT Delhi is a public technical and research university located in Hauz Khas, Delhi.",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": null,
+      "approvedBy": [],
+      "affiliatedTo": null,
+      "accreditation": [],
+      "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://home.iitd.ac.in/",
+      "gallery": [],
+      "feesMin": 100000,
+      "feesMax": 200000,
+      "rating": 4,
+      "reviewCount": 2,
+      "placementAverage": 1500000,
+      "placementHighest": 10000000,
+      "examsAccepted": [
+        "JEE Advanced",
+        "GATE"
+      ],
+      "popularCourses": [
+        "B.Tech Computer Science",
+        "M.Tech Artificial Intelligence"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports",
+        "Wi-Fi Campus",
+        "Medical"
+      ],
+      "tags": [
+        "Engineering",
+        "Top Ranked",
+        "Research"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech Computer Science",
+          "category": "Engineering",
+          "degree": null,
+          "duration": "4 Years",
+          "fees": 200000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Indian Institute of Management Ahmedabad",
+      "shortName": "IIM A",
+      "description": "India's premier management institute, known for its rigorous MBA program and distinguished alumni.",
+      "overview": "IIM Ahmedabad was established in 1961 and is consistently ranked as the top business school in India. It offers MBA, PhD, and executive education programs.",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "address": null,
+      "collegeType": "AUTONOMOUS",
+      "ownership": null,
+      "establishedYear": 1961,
+      "approvedBy": [
+        "MHRD"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "AACSB",
+        "AMBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.iima.ac.in/",
+      "gallery": [],
+      "feesMin": 2500000,
+      "feesMax": 3000000,
+      "rating": 4.9,
+      "reviewCount": 450,
+      "placementAverage": 3500000,
+      "placementHighest": 10000000,
+      "examsAccepted": [
+        "CAT"
+      ],
+      "popularCourses": [
+        "MBA",
+        "PGPX",
+        "PhD"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports Complex",
+        "Wi-Fi",
+        "Medical",
+        "Auditorium"
+      ],
+      "tags": [
+        "Management",
+        "Top Ranked",
+        "IIM"
+      ],
+      "courses": [
+        {
+          "name": "MBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "2 Years",
+          "fees": 2850000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "PGPX",
+          "category": "General",
+          "degree": "PGPX",
+          "duration": "3 Years",
+          "fees": 2565000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "PhD",
+          "category": "General",
+          "degree": "PhD",
+          "duration": "3 Years",
+          "fees": 2280000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Jadavpur University",
+      "shortName": "JU",
+      "description": "A premier state university in West Bengal known for its engineering and arts programs.",
+      "overview": "Jadavpur University was established in 1955 and offers programs in engineering, arts, science, and law. It is consistently ranked among the top universities in India.",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1955,
+      "approvedBy": [
+        "UGC"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1525926472898-1c4b78f89e5a?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "http://www.jaduniv.edu.in/",
+      "gallery": [],
+      "feesMin": 20000,
+      "feesMax": 60000,
+      "rating": 4.2,
+      "reviewCount": 780,
+      "placementAverage": 700000,
+      "placementHighest": 3200000,
+      "examsAccepted": [
+        "WBJEE",
+        "CUET"
+      ],
+      "popularCourses": [
+        "B.Tech",
+        "BA",
+        "M.Sc",
+        "MBA"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports",
+        "Auditorium",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "State University",
+        "Kolkata",
+        "Multidisciplinary"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 48000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "BA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 43200,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "M.Sc",
+          "category": "General",
+          "degree": "M.Sc",
+          "duration": "2 Years",
+          "fees": 38400,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Guru Ghasidas Vishwavidyalaya",
+      "shortName": "GGU",
+      "description": "A central university in Chhattisgarh offering diverse programs in arts, science, engineering, and management.",
+      "overview": "Established in 1983, Guru Ghasidas Vishwavidyalaya is a central university located in Bilaspur, Chhattisgarh, offering a wide range of undergraduate and postgraduate programs.",
+      "city": "Bilaspur",
+      "state": "Chhattisgarh",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1983,
+      "approvedBy": [
+        "UGC"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.ggu.ac.in/",
+      "gallery": [],
+      "feesMin": 25000,
+      "feesMax": 70000,
+      "rating": 3.8,
+      "reviewCount": 340,
+      "placementAverage": 400000,
+      "placementHighest": 1800000,
+      "examsAccepted": [
+        "CUET"
+      ],
+      "popularCourses": [
+        "B.Tech",
+        "MBA",
+        "M.Sc",
+        "BA",
+        "LLB"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports",
+        "Medical",
+        "Cafeteria"
+      ],
+      "tags": [
+        "Central University",
+        "Chhattisgarh"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 56499,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "MBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "2 Years",
+          "fees": 50850,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "M.Sc",
+          "category": "General",
+          "degree": "M.Sc",
+          "duration": "2 Years",
+          "fees": 45200,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Indian Institute of Technology Roorkee",
+      "shortName": "IIT Roorkee",
+      "description": "One of the oldest engineering institutions in Asia, now an IIT with world-class facilities.",
+      "overview": "Originally established as Thomason College of Civil Engineering in 1847, IIT Roorkee is the oldest engineering institution in Asia.",
+      "city": "Roorkee",
+      "state": "Uttarakhand",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1847,
+      "approvedBy": [
+        "UGC",
+        "MHRD"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.iitr.ac.in/",
+      "gallery": [],
+      "feesMin": 110000,
+      "feesMax": 220000,
+      "rating": 4.6,
+      "reviewCount": 980,
+      "placementAverage": 2200000,
+      "placementHighest": 10000000,
+      "examsAccepted": [
+        "JEE Advanced",
+        "GATE"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech Civil",
+        "B.Arch",
+        "M.Tech"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports",
+        "Medical",
+        "Wi-Fi",
+        "Research Labs"
+      ],
+      "tags": [
+        "Engineering",
+        "Top Ranked",
+        "IIT",
+        "Heritage"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 187000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Civil",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 168300,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Arch",
+          "category": "General",
+          "degree": "B.Arch",
+          "duration": "4 Years",
+          "fees": 149600,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Christ University",
+      "shortName": "Christ",
+      "description": "A premier private university in Bangalore known for academic excellence and holistic education.",
+      "overview": "Christ University was established in 1969 and is one of the top private universities in India, known for its rigorous academic programs and vibrant campus life.",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "address": null,
+      "collegeType": "DEEMED",
+      "ownership": null,
+      "establishedYear": 1969,
+      "approvedBy": [
+        "UGC"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://christuniversity.in/",
+      "gallery": [],
+      "feesMin": 150000,
+      "feesMax": 300000,
+      "rating": 4.3,
+      "reviewCount": 1100,
+      "placementAverage": 700000,
+      "placementHighest": 3500000,
+      "examsAccepted": [
+        "CUET",
+        "Christ Entrance"
+      ],
+      "popularCourses": [
+        "BBA",
+        "BA",
+        "B.Sc",
+        "MBA",
+        "MCA"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports",
+        "Gym",
+        "Cafeteria",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "Private",
+        "Bangalore",
+        "Multidisciplinary"
+      ],
+      "courses": [
+        {
+          "name": "BBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 255000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "BA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 229500,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Sc",
+          "category": "General",
+          "degree": "B.Sc",
+          "duration": "4 Years",
+          "fees": 204000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "College of Engineering Pune",
+      "shortName": "COEP",
+      "description": "One of the oldest engineering colleges in India, known for its academic legacy and strong alumni network.",
+      "overview": "COEP was established in 1854 and is one of the oldest engineering colleges in Asia. It offers undergraduate and postgraduate programs in engineering and technology.",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1854,
+      "approvedBy": [
+        "AICTE"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.coep.org.in/",
+      "gallery": [],
+      "feesMin": 60000,
+      "feesMax": 130000,
+      "rating": 4.3,
+      "reviewCount": 720,
+      "placementAverage": 1100000,
+      "placementHighest": 5500000,
+      "examsAccepted": [
+        "JEE Main",
+        "MHT-CET",
+        "GATE"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech Mechanical",
+        "B.Tech Civil",
+        "M.Tech"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports",
+        "Wi-Fi",
+        "Heritage Campus"
+      ],
+      "tags": [
+        "Engineering",
+        "Heritage",
+        "Top Ranked"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 109000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Mechanical",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 98100,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Civil",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 87200,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Delhi Technological University",
+      "shortName": "DTU",
+      "description": "A premier technical university in Delhi offering undergraduate, postgraduate, and doctoral programs in engineering and technology.",
+      "overview": "Formerly known as Delhi College of Engineering, DTU was established in 1941. It is one of the oldest engineering colleges in India and has produced numerous distinguished alumni.",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1941,
+      "approvedBy": [
+        "UGC",
+        "AICTE"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.dtu.ac.in/",
+      "gallery": [],
+      "feesMin": 95000,
+      "feesMax": 190000,
+      "rating": 4.5,
+      "reviewCount": 890,
+      "placementAverage": 1800000,
+      "placementHighest": 8500000,
+      "examsAccepted": [
+        "JEE Main",
+        "GATE"
+      ],
+      "popularCourses": [
+        "B.Tech Computer Science",
+        "B.Tech Mechanical",
+        "M.Tech Electronics"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports",
+        "Cafeteria",
+        "Wi-Fi",
+        "Innovation Lab"
+      ],
+      "tags": [
+        "Engineering",
+        "Top Ranked",
+        "DTU"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech Computer Science",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 161500,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Mechanical",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 145350,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "M.Tech Electronics",
+          "category": "Engineering",
+          "degree": "M.Tech",
+          "duration": "2 Years",
+          "fees": 129200,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Banaras Hindu University",
+      "shortName": "BHU",
+      "description": "One of the largest residential universities in Asia, offering diverse programs in arts, science, engineering, and medicine.",
+      "overview": "Founded in 1916 by Mahamana Pandit Madan Mohan Malaviya, BHU is located in Varanasi. It is one of the most prestigious central universities in India.",
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1916,
+      "approvedBy": [
+        "UGC"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1592289140166-07d2ab28b0ce?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.bhu.ac.in/",
+      "gallery": [],
+      "feesMin": 30000,
+      "feesMax": 100000,
+      "rating": 4.4,
+      "reviewCount": 1800,
+      "placementAverage": 700000,
+      "placementHighest": 3500000,
+      "examsAccepted": [
+        "JEE Main",
+        "NEET",
+        "CUET"
+      ],
+      "popularCourses": [
+        "B.Tech",
+        "MBBS",
+        "BA",
+        "M.Sc",
+        "LLB"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Hospital",
+        "Sports",
+        "Auditorium",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "Central University",
+        "Multidisciplinary",
+        "Research"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 79000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "MBBS",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 71100,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "BA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 63200,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Indian Institute of Technology Kanpur",
+      "shortName": "IIT Kanpur",
+      "description": "One of the premier IITs known for its strong research culture and innovative academic programs.",
+      "overview": "IIT Kanpur was established in 1959 with assistance from nine US universities. It is known for its sprawling campus and strong focus on undergraduate research.",
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1959,
+      "approvedBy": [
+        "UGC",
+        "MHRD"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1592289140166-07d2ab28b0ce?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.iitk.ac.in/",
+      "gallery": [],
+      "feesMin": 110000,
+      "feesMax": 220000,
+      "rating": 4.7,
+      "reviewCount": 1080,
+      "placementAverage": 2300000,
+      "placementHighest": 11000000,
+      "examsAccepted": [
+        "JEE Advanced",
+        "GATE",
+        "CAT"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech Aerospace",
+        "M.Tech",
+        "MBA"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports Stadium",
+        "Research Labs",
+        "Medical"
+      ],
+      "tags": [
+        "Engineering",
+        "IIT",
+        "Top Ranked",
+        "Research"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 187000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Aerospace",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 168300,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "M.Tech",
+          "category": "Engineering",
+          "degree": "M.Tech",
+          "duration": "2 Years",
+          "fees": 149600,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "National Institute of Technology Karnataka",
+      "shortName": "NITK Surathkal",
+      "description": "A premier NIT located on the coast of Karnataka, known for excellent engineering programs.",
+      "overview": "NITK Surathkal was established in 1960 and is one of the top NITs in India. It is located on the picturesque coast near Mangalore.",
+      "city": "Mangalore",
+      "state": "Karnataka",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1960,
+      "approvedBy": [
+        "UGC",
+        "MHRD"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.nitk.ac.in/",
+      "gallery": [],
+      "feesMin": 75000,
+      "feesMax": 150000,
+      "rating": 4.4,
+      "reviewCount": 650,
+      "placementAverage": 1400000,
+      "placementHighest": 7000000,
+      "examsAccepted": [
+        "JEE Main",
+        "GATE"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech Mechanical",
+        "M.Tech"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Beachside Campus",
+        "Sports",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "Engineering",
+        "NIT",
+        "Top Ranked"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 127500,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Mechanical",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 114750,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "M.Tech",
+          "category": "Engineering",
+          "degree": "M.Tech",
+          "duration": "2 Years",
+          "fees": 102000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Indian Institute of Technology Madras",
+      "shortName": "IIT Madras",
+      "description": "Consistently ranked as the top engineering institute in India by NIRF, offering exceptional research and education opportunities.",
+      "overview": "Established in 1959 with technical assistance from the Government of West Germany, IIT Madras is a residential institute situated in a beautiful wood-land campus in Chennai.",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1959,
+      "approvedBy": [
+        "UGC",
+        "MHRD"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.iitm.ac.in/",
+      "gallery": [],
+      "feesMin": 112000,
+      "feesMax": 220000,
+      "rating": 4.9,
+      "reviewCount": 1450,
+      "placementAverage": 2600000,
+      "placementHighest": 13000000,
+      "examsAccepted": [
+        "JEE Advanced",
+        "GATE",
+        "CAT"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech Aerospace",
+        "B.Tech Electrical",
+        "MBA"
+      ],
+      "facilities": [
+        "Hostel",
+        "Research Labs",
+        "Library",
+        "Sports",
+        "Wi-Fi",
+        "Hospital"
+      ],
+      "tags": [
+        "Engineering",
+        "Top Ranked",
+        "IIT",
+        "NIRF Rank 1"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 187600,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Aerospace",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 168840,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Electrical",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 150080,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Indian Institute of Technology Guwahati",
+      "shortName": "IIT Guwahati",
+      "description": "A premier research-intensive institute located on the banks of the Brahmaputra River in Northeast India.",
+      "overview": "Established in 1994, IIT Guwahati features a sprawling, scenic campus, and is known for its excellent academic reputation, infrastructure, and world-class research facilities.",
+      "city": "Guwahati",
+      "state": "Assam",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1994,
+      "approvedBy": [
+        "UGC",
+        "MHRD"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.iitg.ac.in/",
+      "gallery": [],
+      "feesMin": 110000,
+      "feesMax": 220000,
+      "rating": 4.6,
+      "reviewCount": 880,
+      "placementAverage": 2100000,
+      "placementHighest": 9500000,
+      "examsAccepted": [
+        "JEE Advanced",
+        "GATE",
+        "UCEED"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech Bioscience",
+        "M.Tech Design",
+        "M.Sc"
+      ],
+      "facilities": [
+        "Hostel",
+        "Scenic Campus",
+        "Library",
+        "Sports",
+        "Research Labs",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "Engineering",
+        "IIT",
+        "Northeast",
+        "Scenic"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 187000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Bioscience",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 168300,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "M.Tech Design",
+          "category": "Engineering",
+          "degree": "M.Tech",
+          "duration": "2 Years",
+          "fees": 149600,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Indian Institute of Technology Hyderabad",
+      "shortName": "IITH",
+      "description": "A fast-growing premier engineering institute in Telangana known for innovation and collaboration with Japanese universities.",
+      "overview": "Founded in 2008, IIT Hyderabad has established itself as a hub of innovation, research and design, particularly in VLSI, AI, and smart mobility.",
+      "city": "Sangareddy",
+      "state": "Telangana",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 2008,
+      "approvedBy": [
+        "UGC",
+        "MHRD"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.iith.ac.in/",
+      "gallery": [],
+      "feesMin": 115000,
+      "feesMax": 230000,
+      "rating": 4.7,
+      "reviewCount": 540,
+      "placementAverage": 2000000,
+      "placementHighest": 8000000,
+      "examsAccepted": [
+        "JEE Advanced",
+        "GATE"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech AI",
+        "M.Tech Smart Mobility"
+      ],
+      "facilities": [
+        "Hostel",
+        "Japan Collaboration Lab",
+        "Library",
+        "Sports",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "Engineering",
+        "IIT",
+        "New Gen",
+        "Innovation"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 195500,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech AI",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 175950,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "M.Tech Smart Mobility",
+          "category": "Engineering",
+          "degree": "M.Tech",
+          "duration": "2 Years",
+          "fees": 156400,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "National Institute of Technology Tiruchirappalli",
+      "shortName": "NIT Trichy",
+      "description": "Consistently ranked as the top NIT in India, offering excellent academic programs and industry-aligned training.",
+      "overview": "Established in 1964 as Regional Engineering College, NIT Trichy has a sprawling campus near Tiruchirappalli, Tamil Nadu, and features a strong placement track record.",
+      "city": "Tiruchirappalli",
+      "state": "Tamil Nadu",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1964,
+      "approvedBy": [
+        "UGC",
+        "MHRD"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.nitt.edu/",
+      "gallery": [],
+      "feesMin": 72000,
+      "feesMax": 145000,
+      "rating": 4.5,
+      "reviewCount": 920,
+      "placementAverage": 1200000,
+      "placementHighest": 5000000,
+      "examsAccepted": [
+        "JEE Main",
+        "GATE",
+        "CAT",
+        "NIMCET"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech Chemical",
+        "MBA",
+        "MCA"
+      ],
+      "facilities": [
+        "Hostel",
+        "Central Library",
+        "Sports Complex",
+        "Computing Center",
+        "Cafeteria"
+      ],
+      "tags": [
+        "Engineering",
+        "NIT",
+        "Top Rank",
+        "Placements"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 123100,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Chemical",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 110790,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "MBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "2 Years",
+          "fees": 98480,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "National Institute of Technology Calicut",
+      "shortName": "NIT Calicut",
+      "description": "A premier technical institution in Kerala, providing state-of-the-art engineering and science education.",
+      "overview": "Established in 1961 as Regional Engineering College Calicut, the institute has evolved into a premier NIT focused on engineering, architecture, and technology.",
+      "city": "Kozhikode",
+      "state": "Kerala",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1961,
+      "approvedBy": [
+        "UGC",
+        "MHRD"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.nitc.ac.in/",
+      "gallery": [],
+      "feesMin": 70000,
+      "feesMax": 140000,
+      "rating": 4.3,
+      "reviewCount": 680,
+      "placementAverage": 980000,
+      "placementHighest": 4600000,
+      "examsAccepted": [
+        "JEE Main",
+        "NATA",
+        "GATE"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Arch",
+        "M.Tech"
+      ],
+      "facilities": [
+        "Hostel",
+        "Digital Library",
+        "Sports Ground",
+        "Auditorium",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "Engineering",
+        "NIT",
+        "Kerala",
+        "Green Campus"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 119000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Arch",
+          "category": "General",
+          "degree": "B.Arch",
+          "duration": "4 Years",
+          "fees": 107100,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "M.Tech",
+          "category": "Engineering",
+          "degree": "M.Tech",
+          "duration": "2 Years",
+          "fees": 95200,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "National Institute of Technology Rourkela",
+      "shortName": "NIT Rourkela",
+      "description": "One of the leading technical institutions in eastern India, known for its extensive research projects and beautiful campus.",
+      "overview": "Established in 1961, NIT Rourkela offers multiple programs in engineering, biotechnology, planning, and management. It has one of the largest campuses in India.",
+      "city": "Rourkela",
+      "state": "Odisha",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1961,
+      "approvedBy": [
+        "UGC",
+        "MHRD"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1592289140166-07d2ab28b0ce?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.nitrkl.ac.in/",
+      "gallery": [],
+      "feesMin": 72000,
+      "feesMax": 145000,
+      "rating": 4.4,
+      "reviewCount": 840,
+      "placementAverage": 1050000,
+      "placementHighest": 4800000,
+      "examsAccepted": [
+        "JEE Main",
+        "GATE"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech Metallurgical",
+        "M.Tech Biotech"
+      ],
+      "facilities": [
+        "Hostel",
+        "Central Library",
+        "Sports Stadium",
+        "Wi-Fi Campus",
+        "Medical Center"
+      ],
+      "tags": [
+        "Engineering",
+        "NIT",
+        "Odisha",
+        "Research"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 123100,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Metallurgical",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 110790,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "M.Tech Biotech",
+          "category": "Engineering",
+          "degree": "M.Tech",
+          "duration": "2 Years",
+          "fees": 98480,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "International Institute of Information Technology Hyderabad",
+      "shortName": "IIIT Hyderabad",
+      "description": "An autonomous research university specializing in information technology, computer science, and electronics.",
+      "overview": "Founded in 1998, IIIT Hyderabad is highly regarded for its deep research focus, coding culture (active in ACM-ICPC and GSoC), and unmatched placements.",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "address": null,
+      "collegeType": "PRIVATE",
+      "ownership": null,
+      "establishedYear": 1998,
+      "approvedBy": [
+        "AICTE",
+        "UGC"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1525926472898-1c4b78f89e5a?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.iiit.ac.in/",
+      "gallery": [],
+      "feesMin": 300000,
+      "feesMax": 360000,
+      "rating": 4.8,
+      "reviewCount": 620,
+      "placementAverage": 2800000,
+      "placementHighest": 10200000,
+      "examsAccepted": [
+        "JEE Main",
+        "UGEE"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech ECE",
+        "MS by Research"
+      ],
+      "facilities": [
+        "Hostel",
+        "Research Labs",
+        "Library",
+        "Sports Complex",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "Engineering",
+        "Private",
+        "Computer Science",
+        "Top Placements"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 342000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech ECE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 307800,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "MS by Research",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 273600,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "International Institute of Information Technology Bangalore",
+      "shortName": "IIIT Bangalore",
+      "description": "A premier institute in India's IT capital, offering highly specialized engineering and IT programs.",
+      "overview": "Established in 1999, IIIT Bangalore is an autonomous deemed university located in Electronic City, Bangalore. It is highly valued for its industry linkages and quality education.",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "address": null,
+      "collegeType": "DEEMED",
+      "ownership": null,
+      "establishedYear": 1999,
+      "approvedBy": [
+        "UGC",
+        "AICTE"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.iiitb.ac.in/",
+      "gallery": [],
+      "feesMin": 320000,
+      "feesMax": 400000,
+      "rating": 4.6,
+      "reviewCount": 410,
+      "placementAverage": 2400000,
+      "placementHighest": 7800000,
+      "examsAccepted": [
+        "JEE Main",
+        "GATE"
+      ],
+      "popularCourses": [
+        "Integrated M.Tech CSE",
+        "Integrated M.Tech ECE",
+        "M.Tech CSE"
+      ],
+      "facilities": [
+        "Hostel",
+        "Innovation Center",
+        "Library",
+        "Sports Complex",
+        "Cafeteria"
+      ],
+      "tags": [
+        "Engineering",
+        "Deemed",
+        "Bangalore",
+        "Information Technology"
+      ],
+      "courses": [
+        {
+          "name": "Integrated M.Tech CSE",
+          "category": "Engineering",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 376000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "Integrated M.Tech ECE",
+          "category": "Engineering",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 338400,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "M.Tech CSE",
+          "category": "Engineering",
+          "degree": "M.Tech",
+          "duration": "2 Years",
+          "fees": 300800,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Netaji Subhas University of Technology",
+      "shortName": "NSUT",
+      "description": "A state university in Delhi known for high academic standards and highly successful placements in technology companies.",
+      "overview": "Formerly Netaji Subhas Institute of Technology (NSIT), NSUT was established in 1983. It is located in Dwarka, New Delhi and has been a top technical choice for students.",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1983,
+      "approvedBy": [
+        "UGC",
+        "AICTE"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.nsut.ac.in/",
+      "gallery": [],
+      "feesMin": 150000,
+      "feesMax": 200000,
+      "rating": 4.4,
+      "reviewCount": 820,
+      "placementAverage": 1600000,
+      "placementHighest": 7200000,
+      "examsAccepted": [
+        "JEE Main"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech IT",
+        "B.Tech Electronics"
+      ],
+      "facilities": [
+        "Hostel",
+        "Large Campus",
+        "Library",
+        "Sports",
+        "Auditorium",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "Engineering",
+        "Delhi",
+        "Government",
+        "High Placements"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 185000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech IT",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 166500,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Electronics",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 148000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Indira Gandhi Delhi Technical University for Women",
+      "shortName": "IGDTUW",
+      "description": "A premier women's university in Delhi, leading in engineering, technology, and science education.",
+      "overview": "Established in 2013, IGDTUW is the first engineering university for women in India. It has been highly lauded for empowering women in STEM fields with leading placements.",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 2013,
+      "approvedBy": [
+        "UGC",
+        "AICTE"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.igdtuw.ac.in/",
+      "gallery": [],
+      "feesMin": 110000,
+      "feesMax": 130000,
+      "rating": 4.5,
+      "reviewCount": 460,
+      "placementAverage": 1500000,
+      "placementHighest": 6000000,
+      "examsAccepted": [
+        "JEE Main",
+        "NIMCET"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech Mechanical",
+        "B.Arch",
+        "MCA"
+      ],
+      "facilities": [
+        "Safe Hostel",
+        "Computing Labs",
+        "Library",
+        "Gym",
+        "Wi-Fi",
+        "Auditorium"
+      ],
+      "tags": [
+        "Engineering",
+        "Women Empowerment",
+        "Delhi",
+        "Placements"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 124000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Mechanical",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 111600,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Arch",
+          "category": "General",
+          "degree": "B.Arch",
+          "duration": "4 Years",
+          "fees": 99200,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Punjab Engineering College",
+      "shortName": "PEC",
+      "description": "One of the oldest technical institutes in India, offering quality engineering education in Chandigarh.",
+      "overview": "Established in 1921, PEC Chandigarh (deemed to be university) is known for its strong heritage, active research projects, and collaborations with aerospace and tech industries.",
+      "city": "Chandigarh",
+      "state": "Chandigarh",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1921,
+      "approvedBy": [
+        "UGC",
+        "AICTE"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://pec.ac.in/",
+      "gallery": [],
+      "feesMin": 90000,
+      "feesMax": 160000,
+      "rating": 4.2,
+      "reviewCount": 540,
+      "placementAverage": 1100000,
+      "placementHighest": 4500000,
+      "examsAccepted": [
+        "JEE Main",
+        "GATE"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech Aerospace",
+        "M.Tech CSE"
+      ],
+      "facilities": [
+        "Hostel",
+        "Digital Library",
+        "Sports Grounds",
+        "Aerospace Lab",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "Engineering",
+        "Government",
+        "Heritage",
+        "Chandigarh"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 139000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Aerospace",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 125100,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "M.Tech CSE",
+          "category": "Engineering",
+          "degree": "M.Tech",
+          "duration": "2 Years",
+          "fees": 111200,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Thapar Institute of Engineering and Technology",
+      "shortName": "TIET Patiala",
+      "description": "A leading private deemed engineering university in Punjab, highly valued for its academic rigor.",
+      "overview": "Founded in 1956, Thapar University is a private deemed-to-be-university in Patiala, Punjab. It is renowned for its premium infrastructure, academic quality, and high placements.",
+      "city": "Patiala",
+      "state": "Punjab",
+      "address": null,
+      "collegeType": "DEEMED",
+      "ownership": null,
+      "establishedYear": 1956,
+      "approvedBy": [
+        "UGC",
+        "AICTE"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.thapar.edu/",
+      "gallery": [],
+      "feesMin": 220000,
+      "feesMax": 420000,
+      "rating": 4.3,
+      "reviewCount": 1150,
+      "placementAverage": 950000,
+      "placementHighest": 4000000,
+      "examsAccepted": [
+        "JEE Main",
+        "TIET Entrance"
+      ],
+      "popularCourses": [
+        "B.E. Computer Engineering",
+        "B.E. Electronics",
+        "MBA"
+      ],
+      "facilities": [
+        "Hostel",
+        "State of art Library",
+        "Sports Center",
+        "Wi-Fi",
+        "Cafeterias"
+      ],
+      "tags": [
+        "Engineering",
+        "Deemed",
+        "Punjab",
+        "Top Infrastructure"
+      ],
+      "courses": [
+        {
+          "name": "B.E. Computer Engineering",
+          "category": "Engineering",
+          "degree": "B.E",
+          "duration": "4 Years",
+          "fees": 360000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.E. Electronics",
+          "category": "Engineering",
+          "degree": "B.E",
+          "duration": "4 Years",
+          "fees": 324000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "MBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "2 Years",
+          "fees": 288000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Symbiosis International University",
+      "shortName": "SIU Pune",
+      "description": "A top-ranked private deemed university offering global standards of education in Pune.",
+      "overview": "Established in 1971 by Dr. S. B. Mujumdar, Symbiosis has grown into a highly sought-after private deemed university, famous for management, law, and liberal arts.",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "address": null,
+      "collegeType": "DEEMED",
+      "ownership": null,
+      "establishedYear": 1971,
+      "approvedBy": [
+        "UGC"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A++",
+        "AMBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.siu.edu.in/",
+      "gallery": [],
+      "feesMin": 200000,
+      "feesMax": 600000,
+      "rating": 4.4,
+      "reviewCount": 940,
+      "placementAverage": 1150000,
+      "placementHighest": 3800000,
+      "examsAccepted": [
+        "SNAP",
+        "SET",
+        "SLAT"
+      ],
+      "popularCourses": [
+        "MBA",
+        "BBA",
+        "BBA LLB",
+        "B.Tech"
+      ],
+      "facilities": [
+        "AC Hostels",
+        "Library",
+        "Amphitheater",
+        "Sports Arena",
+        "Gym",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "Management",
+        "Law",
+        "Private",
+        "Deemed",
+        "Pune"
+      ],
+      "courses": [
+        {
+          "name": "MBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "2 Years",
+          "fees": 480000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "BBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 432000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "BBA LLB",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 384000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Narsee Monjee Institute of Management Studies",
+      "shortName": "NMIMS",
+      "description": "A leading private deemed university in Mumbai, highly renowned for its business school.",
+      "overview": "NMIMS was established in 1981 and is one of the premier destinations for management education in India. It has expanded to multiple campuses offering tech, law, and commerce.",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "address": null,
+      "collegeType": "DEEMED",
+      "ownership": null,
+      "establishedYear": 1981,
+      "approvedBy": [
+        "UGC",
+        "AICTE"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+",
+        "AACSB"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1592289140166-07d2ab28b0ce?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.nmims.edu/",
+      "gallery": [],
+      "feesMin": 250000,
+      "feesMax": 800000,
+      "rating": 4.3,
+      "reviewCount": 1050,
+      "placementAverage": 1800000,
+      "placementHighest": 5800000,
+      "examsAccepted": [
+        "NMAT",
+        "NPAT"
+      ],
+      "popularCourses": [
+        "MBA",
+        "BBA",
+        "B.Tech CSE",
+        "B.Com"
+      ],
+      "facilities": [
+        "City Campus Hostel",
+        "Digital Library",
+        "Finance Lab",
+        "Auditorium",
+        "Cafeteria"
+      ],
+      "tags": [
+        "Management",
+        "Commerce",
+        "Deemed",
+        "Mumbai",
+        "Premium B-School"
+      ],
+      "courses": [
+        {
+          "name": "MBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "2 Years",
+          "fees": 635000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "BBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 571500,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 508000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Birla Institute of Technology Mesra",
+      "shortName": "BIT Mesra",
+      "description": "A prominent private deemed technical university in Jharkhand with a long history of excellence.",
+      "overview": "Established in 1955 by industrialist B.M. Birla, BIT Mesra has a beautiful green campus in Ranchi and is known for rocket propulsion research and top technical courses.",
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "address": null,
+      "collegeType": "DEEMED",
+      "ownership": null,
+      "establishedYear": 1955,
+      "approvedBy": [
+        "UGC",
+        "AICTE"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1525926472898-1c4b78f89e5a?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.bitmesra.ac.in/",
+      "gallery": [],
+      "feesMin": 140000,
+      "feesMax": 280000,
+      "rating": 4.1,
+      "reviewCount": 620,
+      "placementAverage": 950000,
+      "placementHighest": 4400000,
+      "examsAccepted": [
+        "JEE Main",
+        "GATE",
+        "CAT"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech Space Engineering",
+        "M.Tech",
+        "MBA"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "Sports Complex",
+        "Research Labs",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "Engineering",
+        "Deemed",
+        "Eastern India",
+        "Research"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 238000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Space Engineering",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 214200,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "M.Tech",
+          "category": "Engineering",
+          "degree": "M.Tech",
+          "duration": "2 Years",
+          "fees": 190400,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "PSG College of Technology",
+      "shortName": "PSG Tech",
+      "description": "A top-ranked private engineering college in Coimbatore, heavily backed by industry collaborations.",
+      "overview": "Established in 1951, PSG Tech is an government-aided private college affiliated to Anna University. It is known for its strong focus on industry-collaborative training.",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "address": null,
+      "collegeType": "PRIVATE",
+      "ownership": null,
+      "establishedYear": 1951,
+      "approvedBy": [
+        "AICTE",
+        "Anna University"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.psgtech.edu/",
+      "gallery": [],
+      "feesMin": 60000,
+      "feesMax": 180000,
+      "rating": 4.5,
+      "reviewCount": 780,
+      "placementAverage": 1000000,
+      "placementHighest": 4000000,
+      "examsAccepted": [
+        "TNEA",
+        "GATE"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech Textile",
+        "M.Tech CSE"
+      ],
+      "facilities": [
+        "Hostel",
+        "Library",
+        "CNC Workshop",
+        "Sports Ground",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "Engineering",
+        "Private",
+        "Coimbatore",
+        "Industry Linked"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 144000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Textile",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 129600,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "M.Tech CSE",
+          "category": "Engineering",
+          "degree": "M.Tech",
+          "duration": "2 Years",
+          "fees": 115200,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Veermata Jijabai Technological Institute",
+      "shortName": "VJTI",
+      "description": "One of the oldest technical institutes in Mumbai with high academic repute and placement records.",
+      "overview": "VJTI Mumbai was established in 1887. Located in Matunga, Mumbai, it is an autonomous state-funded engineering college with excellent linkages to industries.",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1887,
+      "approvedBy": [
+        "AICTE"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.vjti.ac.in/",
+      "gallery": [],
+      "feesMin": 70000,
+      "feesMax": 90000,
+      "rating": 4.4,
+      "reviewCount": 650,
+      "placementAverage": 1250000,
+      "placementHighest": 6200000,
+      "examsAccepted": [
+        "MHT-CET",
+        "JEE Main",
+        "MAH-MCA-CET"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech Mechanical",
+        "MCA",
+        "Diploma"
+      ],
+      "facilities": [
+        "Hostel",
+        "Central Library",
+        "Sports Grounds",
+        "Wi-Fi",
+        "Cafeteria"
+      ],
+      "tags": [
+        "Engineering",
+        "Government",
+        "Mumbai",
+        "Legacy"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 84000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Mechanical",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 75600,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "MCA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 67200,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Sardar Patel Institute of Technology",
+      "shortName": "SPIT",
+      "description": "A premier private technical college in Mumbai, known for computing and technology programs.",
+      "overview": "SPIT was established in 2005 as an autonomous engineering college under Bharatiya Vidya Bhavan. It features state-of-the-art labs and excellent placements in IT.",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "address": null,
+      "collegeType": "PRIVATE",
+      "ownership": null,
+      "establishedYear": 2005,
+      "approvedBy": [
+        "AICTE"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.spit.ac.in/",
+      "gallery": [],
+      "feesMin": 140000,
+      "feesMax": 170000,
+      "rating": 4.2,
+      "reviewCount": 380,
+      "placementAverage": 1050000,
+      "placementHighest": 4200000,
+      "examsAccepted": [
+        "MHT-CET",
+        "JEE Main"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Tech AI & Data Science",
+        "MCA"
+      ],
+      "facilities": [
+        "Library",
+        "Smart Labs",
+        "Sports Ground",
+        "Wi-Fi Campus",
+        "Cafeteria"
+      ],
+      "tags": [
+        "Engineering",
+        "Private",
+        "Mumbai",
+        "High placements"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 161000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech AI & Data Science",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 144900,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "MCA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 128800,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Institute of Chemical Technology",
+      "shortName": "ICT Mumbai",
+      "description": "A world-renowned technical institute specializing in chemical engineering and technology research.",
+      "overview": "Established in 1933, ICT Mumbai (formerly UDCT) is a premier state-funded deemed university. It has produced many successful entrepreneurs and scientists in chemical fields.",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1933,
+      "approvedBy": [
+        "UGC",
+        "AICTE"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A++",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.ictmumbai.edu.in/",
+      "gallery": [],
+      "feesMin": 85000,
+      "feesMax": 120000,
+      "rating": 4.6,
+      "reviewCount": 480,
+      "placementAverage": 900000,
+      "placementHighest": 3600000,
+      "examsAccepted": [
+        "MHT-CET",
+        "JEE Main",
+        "GATE"
+      ],
+      "popularCourses": [
+        "B.Chem Engg",
+        "B.Tech Food Tech",
+        "M.Tech Chemical"
+      ],
+      "facilities": [
+        "Hostel",
+        "Specialized Labs",
+        "Rich Library",
+        "Sports Complex",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "Chemical",
+        "Research Focus",
+        "Government",
+        "Mumbai"
+      ],
+      "courses": [
+        {
+          "name": "B.Chem Engg",
+          "category": "General",
+          "degree": "B.Chem",
+          "duration": "4 Years",
+          "fees": 109500,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Tech Food Tech",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 98550,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "M.Tech Chemical",
+          "category": "Engineering",
+          "degree": "M.Tech",
+          "duration": "2 Years",
+          "fees": 87600,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Aligarh Muslim University",
+      "shortName": "AMU",
+      "description": "A historic central university offering a huge array of disciplines in Uttar Pradesh.",
+      "overview": "Founded by Sir Syed Ahmad Khan in 1875, AMU is a premier central university offering over 300 courses. The campus has traditional heritage architecture and high academic rankings.",
+      "city": "Aligarh",
+      "state": "Uttar Pradesh",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1920,
+      "approvedBy": [
+        "UGC"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.amu.ac.in/",
+      "gallery": [],
+      "feesMin": 20000,
+      "feesMax": 90000,
+      "rating": 4.2,
+      "reviewCount": 1100,
+      "placementAverage": 650000,
+      "placementHighest": 2500000,
+      "examsAccepted": [
+        "AMU Entrance",
+        "NEET",
+        "CUET"
+      ],
+      "popularCourses": [
+        "B.Tech",
+        "MBBS",
+        "BA LLB",
+        "B.Com",
+        "MA"
+      ],
+      "facilities": [
+        "Hostel Network",
+        "Maulana Azad Library",
+        "Hospital",
+        "Sports Complex",
+        "Museum"
+      ],
+      "tags": [
+        "Central University",
+        "Heritage",
+        "Uttar Pradesh"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 69000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "MBBS",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 62100,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "BA LLB",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 55200,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Jawaharlal Nehru University",
+      "shortName": "JNU",
+      "description": "One of the leading universities in India for arts, social sciences, and research.",
+      "overview": "Established in 1969, JNU is a world-renowned central university in New Delhi, highly valued for its liberal arts, sciences, international studies, and research programs.",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "address": null,
+      "collegeType": "GOVERNMENT",
+      "ownership": null,
+      "establishedYear": 1969,
+      "approvedBy": [
+        "UGC"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A++"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.jnu.ac.in/",
+      "gallery": [],
+      "feesMin": 500,
+      "feesMax": 5000,
+      "rating": 4.5,
+      "reviewCount": 840,
+      "placementAverage": 800000,
+      "placementHighest": 2800000,
+      "examsAccepted": [
+        "CUET PG",
+        "CUET UG"
+      ],
+      "popularCourses": [
+        "MA International Relations",
+        "BA Foreign Languages",
+        "M.Sc",
+        "PhD"
+      ],
+      "facilities": [
+        "Hostels",
+        "Central Library",
+        "Scenic Green Campus",
+        "Medical Center",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "Research",
+        "Social Sciences",
+        "Delhi",
+        "Affordable"
+      ],
+      "courses": [
+        {
+          "name": "MA International Relations",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 3650,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "BA Foreign Languages",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 3285,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "M.Sc",
+          "category": "General",
+          "degree": "M.Sc",
+          "duration": "2 Years",
+          "fees": 2920,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Ashoka University",
+      "shortName": "Ashoka",
+      "description": "A pioneering private liberal arts and sciences university offering world-class multidisciplinary education.",
+      "overview": "Established in 2014, Ashoka University is located in Sonepat, Haryana. It focuses on critical thinking, writing, and multidisciplinary programs with ivy-league faculty.",
+      "city": "Sonepat",
+      "state": "Haryana",
+      "address": null,
+      "collegeType": "PRIVATE",
+      "ownership": null,
+      "establishedYear": 2014,
+      "approvedBy": [
+        "UGC"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [],
+      "imageUrl": "https://images.unsplash.com/photo-1592289140166-07d2ab28b0ce?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://www.ashoka.edu.in/",
+      "gallery": [],
+      "feesMin": 700000,
+      "feesMax": 900000,
+      "rating": 4.6,
+      "reviewCount": 320,
+      "placementAverage": 1100000,
+      "placementHighest": 3500000,
+      "examsAccepted": [
+        "AAT",
+        "SAT"
+      ],
+      "popularCourses": [
+        "B.A. Liberal Arts",
+        "B.Sc Computer Science",
+        "Young India Fellowship"
+      ],
+      "facilities": [
+        "Premium AC Hostels",
+        "Modern Library",
+        "Sports Center",
+        "Discussion Rooms",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "Liberal Arts",
+        "Private",
+        "Modern Campus",
+        "Ivy League Faculty"
+      ],
+      "courses": [
+        {
+          "name": "B.A. Liberal Arts",
+          "category": "General",
+          "degree": "B.A",
+          "duration": "4 Years",
+          "fees": 840000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Sc Computer Science",
+          "category": "General",
+          "degree": "B.Sc",
+          "duration": "4 Years",
+          "fees": 756000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "Young India Fellowship",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 672000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Shiv Nadar University",
+      "shortName": "SNU",
+      "description": "A comprehensive, research-focused private university in Greater Noida offering interdisciplinary studies.",
+      "overview": "Founded in 2011 by Shiv Nadar (founder of HCL), SNU Noida offers a vibrant residential campus and emphasizes undergraduate research across engineering, sciences, and management.",
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "address": null,
+      "collegeType": "PRIVATE",
+      "ownership": null,
+      "establishedYear": 2011,
+      "approvedBy": [
+        "UGC"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1525926472898-1c4b78f89e5a?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://snu.edu.in/",
+      "gallery": [],
+      "feesMin": 250000,
+      "feesMax": 450000,
+      "rating": 4.2,
+      "reviewCount": 390,
+      "placementAverage": 900000,
+      "placementHighest": 3200000,
+      "examsAccepted": [
+        "SNUSAT",
+        "JEE Main",
+        "CAT"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Sc Research",
+        "MBA"
+      ],
+      "facilities": [
+        "Hostel",
+        "Large Research Labs",
+        "Sports Complex",
+        "Library",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "Private",
+        "Research Focus",
+        "NCR",
+        "HCL Foundation"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 390000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Sc Research",
+          "category": "General",
+          "degree": "B.Sc",
+          "duration": "4 Years",
+          "fees": 351000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "MBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "2 Years",
+          "fees": 312000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Nirma University",
+      "shortName": "Nirma",
+      "description": "A renowned private university in Ahmedabad, Gujarat, known for engineering, law, and management.",
+      "overview": "Established in 2003, Nirma University has become a premier educational brand in western India, offering highly structured academic programs and strong industry placements.",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "address": null,
+      "collegeType": "PRIVATE",
+      "ownership": null,
+      "establishedYear": 2003,
+      "approvedBy": [
+        "UGC",
+        "AICTE"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://nirmauni.ac.in/",
+      "gallery": [],
+      "feesMin": 180000,
+      "feesMax": 300000,
+      "rating": 4.1,
+      "reviewCount": 570,
+      "placementAverage": 820000,
+      "placementHighest": 3000000,
+      "examsAccepted": [
+        "JEE Main",
+        "GUJCET",
+        "CLAT",
+        "CAT"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "MBA",
+        "B.A. LLB"
+      ],
+      "facilities": [
+        "AC Classrooms",
+        "Library",
+        "Sports Facility",
+        "Cafeterias",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "Private",
+        "Gujarat",
+        "Management & Tech"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 264000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "MBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "2 Years",
+          "fees": 237600,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.A. LLB",
+          "category": "General",
+          "degree": "B.A",
+          "duration": "4 Years",
+          "fees": 211200,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    },
+    {
+      "name": "Manipal University Jaipur",
+      "shortName": "MUJ",
+      "description": "A modern private university in Rajasthan offering premium infrastructure and high-quality education.",
+      "overview": "Established in 2011, MUJ features a state-of-the-art 122-acre residential campus, offering diverse courses in tech, design, management, and media with global linkages.",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "address": null,
+      "collegeType": "PRIVATE",
+      "ownership": null,
+      "establishedYear": 2011,
+      "approvedBy": [
+        "UGC",
+        "AICTE"
+      ],
+      "affiliatedTo": null,
+      "accreditation": [
+        "NAAC A+",
+        "NBA"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1000&q=80",
+      "officialUrl": "https://jaipur.manipal.edu/",
+      "gallery": [],
+      "feesMin": 190000,
+      "feesMax": 340000,
+      "rating": 4.2,
+      "reviewCount": 710,
+      "placementAverage": 750000,
+      "placementHighest": 3200000,
+      "examsAccepted": [
+        "MET",
+        "JEE Main"
+      ],
+      "popularCourses": [
+        "B.Tech CSE",
+        "B.Des Fashion",
+        "BBA",
+        "BJMC"
+      ],
+      "facilities": [
+        "Premium Hostels",
+        "Design Studios",
+        "Library",
+        "Sports Arena",
+        "Wi-Fi"
+      ],
+      "tags": [
+        "Private",
+        "Jaipur",
+        "Design & Engineering"
+      ],
+      "courses": [
+        {
+          "name": "B.Tech CSE",
+          "category": "Engineering",
+          "degree": "B.Tech",
+          "duration": "4 Years",
+          "fees": 295000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "B.Des Fashion",
+          "category": "General",
+          "degree": "B.Des",
+          "duration": "4 Years",
+          "fees": 265500,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        },
+        {
+          "name": "BBA",
+          "category": "General",
+          "degree": "Bachelor",
+          "duration": "3 Years",
+          "fees": 236000,
+          "eligibility": null,
+          "examsAccepted": [],
+          "seats": null
+        }
+      ]
+    }
+  ]
+}

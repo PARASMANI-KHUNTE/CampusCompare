@@ -1,42 +1,9 @@
 import { Link } from 'react-router-dom';
-import { GraduationCap, Mail, Phone, MapPin, ArrowRight, Sparkles } from 'lucide-react';
+import { GraduationCap, Mail, Phone, MapPin } from 'lucide-react';
 
 export const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-300">
-      {/* Newsletter Section */}
-      <div className="gradient-bg border-b border-white/10">
-        <div className="container-custom py-12">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-            <div className="flex items-start gap-4">
-              <div className="p-2.5 bg-white/10 rounded-xl hidden sm:block">
-                <Sparkles className="w-6 h-6 text-primary-300" />
-              </div>
-              <div>
-                <h3 className="text-white font-display font-bold text-xl mb-1">Stay Updated</h3>
-                <p className="text-gray-400 text-sm">Get the latest college alerts and admission updates.</p>
-              </div>
-            </div>
-            <form className="flex w-full md:w-auto gap-3" onSubmit={(e) => e.preventDefault()}>
-              <div className="relative flex-1 md:w-80">
-                <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="w-full h-12 pl-11 pr-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-400 text-sm backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-primary-400 focus:border-transparent transition-all"
-                />
-              </div>
-              <button
-                type="submit"
-                className="h-12 px-6 bg-white text-primary-700 rounded-xl font-semibold text-sm hover:bg-gray-100 transition-colors flex items-center gap-2 shrink-0"
-              >
-                Subscribe <ArrowRight className="w-4 h-4" />
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-
       <div className="container-custom pt-16 pb-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8 mb-12">
           {/* Brand */}
