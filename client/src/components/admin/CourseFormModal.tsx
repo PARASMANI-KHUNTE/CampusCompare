@@ -47,6 +47,7 @@ export const CourseFormModal = ({ isOpen, onClose, course }: CourseFormModalProp
     mutationFn: adminService.createCourse,
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['admin-courses'] });
+      queryClient.invalidateQueries({ queryKey: ['college'] });
       toast.success('Course created successfully');
       onClose();
     },
@@ -57,6 +58,7 @@ export const CourseFormModal = ({ isOpen, onClose, course }: CourseFormModalProp
     mutationFn: (data: Partial<Course>) => adminService.updateCourse(course!.id, data),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['admin-courses'] });
+      queryClient.invalidateQueries({ queryKey: ['college'] });
       toast.success('Course updated successfully');
       onClose();
     },

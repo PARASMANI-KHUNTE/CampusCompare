@@ -15,6 +15,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         ref={ref}
         disabled={disabled || isLoading}
         className={cn(
+          'btn',
           `btn-${variant}`,
           size === 'sm' && 'btn-sm',
           size === 'lg' && 'btn-lg',

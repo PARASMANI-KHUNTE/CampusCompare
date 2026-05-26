@@ -87,6 +87,7 @@ export const CollegeFormModal = ({ isOpen, onClose, college }: CollegeFormModalP
     mutationFn: (data: Partial<College>) => adminService.updateCollege(college!.id, data),
     onSuccess: (updatedCollege) => {
       queryClient.invalidateQueries({ queryKey: ['admin-colleges'] });
+      queryClient.invalidateQueries({ queryKey: ['college'] });
       if (imageMode === 'upload' && selectedFile) {
         toast.success('College updated, uploading new image...');
         uploadMutation.mutate({ id: updatedCollege.id, file: selectedFile });

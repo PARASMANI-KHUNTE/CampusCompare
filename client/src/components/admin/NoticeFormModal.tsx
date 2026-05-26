@@ -27,6 +27,7 @@ export const NoticeFormModal = ({ isOpen, onClose, collegeId }: NoticeFormModalP
     mutationFn: () => adminService.createNotice(collegeId, { ...formData, attachment: selectedFile || undefined }),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['admin-colleges'] });
+      queryClient.invalidateQueries({ queryKey: ['college'] });
       toast.success('Notice posted successfully');
       setFormData({ title: '', content: '' });
       setSelectedFile(null);
