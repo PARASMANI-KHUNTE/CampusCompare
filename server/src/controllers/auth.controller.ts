@@ -32,3 +32,33 @@ export const logout = asyncHandler(async (req: Request, res: Response) => {
   });
   return successResponse(res, 'Logged out successfully');
 });
+
+export const updateProfile = asyncHandler(async (req: AuthRequest, res: Response) => {
+  const user = await authService.updateProfile(req.user!.id, {
+    name: req.body.name,
+  });
+  return successResponse(res, 'Profile updated successfully', { user });
+});
+
+export const uploadAvatar = asyncHandler(async (req: AuthRequest, res: Response) => {
+  if (!req.file) {
+    return res.status(400).json({ success: false, message: 'No image provided' });
+  }
+  const user = await authService.uploadAvatar(req.user!.id, req.file.path);
+  return successResponse(res, 'Avatar updated successfully', { user });
+});
+
+export const deleteAccount = asyncHandler(async (req: AuthRequest, res: Response) => {
+  await authService.deleteAccount(req.user!.id);
+  
+  const isProduction = process.env.NODE_ENV === 'production';
+  res.cookie('token', '', {
+    httpOnly: true,
+    secure: isProduction,
+    sameSite: isProduction ? 'none' : 'strict',
+    expires: new Date(0),
+  });
+  
+  return successResponse(res, 'Account deleted successfully');
+});
+

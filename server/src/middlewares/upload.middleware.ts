@@ -38,3 +38,19 @@ export const uploadNotice = multer({
     fileSize: 10 * 1024 * 1024, // 10MB limit for notices
   }
 });
+
+const avatarStorage = new CloudinaryStorage({
+  cloudinary: cloudinary,
+  params: {
+    folder: 'campuscompare/avatars',
+    allowed_formats: ['jpg', 'jpeg', 'png', 'webp'],
+    transformation: [{ width: 400, height: 400, crop: 'fill', gravity: 'face' }],
+  } as any,
+});
+
+export const uploadUserAvatar = multer({
+  storage: avatarStorage,
+  limits: {
+    fileSize: 5 * 1024 * 1024, // 5MB limit
+  }
+});

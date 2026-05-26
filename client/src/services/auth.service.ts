@@ -21,4 +21,24 @@ export const authService = {
     const response = await api.post<ApiResponse<void>>('/auth/logout');
     return response.data;
   },
+
+  updateProfile: async (data: { name: string }) => {
+    const response = await api.put<ApiResponse<{ user: User }>>('/auth/me', data);
+    return response.data.data.user;
+  },
+
+  uploadAvatar: async (file: File) => {
+    const formData = new FormData();
+    formData.append('avatar', file);
+    const response = await api.post<ApiResponse<{ user: User }>>('/auth/me/avatar', formData, {
+      headers: { 'Content-Type': 'multipart/form-data' },
+    });
+    return response.data.data.user;
+  },
+
+  deleteAccount: async () => {
+    const response = await api.delete<ApiResponse<void>>('/auth/me');
+    return response.data;
+  },
 };
+

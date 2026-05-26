@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
-import { GraduationCap, Menu, X, Heart, LogOut, Scale } from 'lucide-react';
+import { GraduationCap, Menu, X, Heart, LogOut, Scale, User } from 'lucide-react';
 import { useAuthStore } from '../../stores/authStore';
 import { useCompareStore } from '../../stores/compareStore';
 import { useAuth } from '../../hooks/useAuth';
@@ -106,9 +106,13 @@ export const Navbar = () => {
                 >
                   <Heart className="w-5 h-5" />
                 </Link>
-                <Link to="/saved" className="flex items-center gap-2.5 group">
-                  <div className="w-8 h-8 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center font-bold text-sm transition-transform duration-200 group-hover:scale-105">
-                    {user?.name.charAt(0).toUpperCase()}
+                <Link to="/profile" className="flex items-center gap-2.5 group" title="My Profile">
+                  <div className="w-8 h-8 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center font-bold text-sm transition-transform duration-200 group-hover:scale-105 overflow-hidden">
+                    {user?.avatarUrl ? (
+                      <img src={user?.avatarUrl} alt={user?.name} className="w-full h-full object-cover" />
+                    ) : (
+                      user?.name.charAt(0).toUpperCase()
+                    )}
                   </div>
                   <span className="text-sm font-medium text-gray-700 hidden lg:block group-hover:text-primary-600 transition-colors">
                     {user?.name}
@@ -208,10 +212,22 @@ export const Navbar = () => {
                     Admin Dashboard
                   </Link>
                 )}
+                <Link
+                  to="/profile"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="flex items-center gap-3 px-4 py-3 text-gray-700 hover:bg-gray-50 rounded-lg font-medium"
+                >
+                  <User className="w-5 h-5 text-gray-400" />
+                  My Profile
+                </Link>
                 <div className="flex items-center justify-between px-4 py-3 bg-gray-50 rounded-lg mt-1">
                   <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center font-bold">
-                      {user?.name.charAt(0).toUpperCase()}
+                    <div className="w-10 h-10 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center font-bold overflow-hidden">
+                      {user?.avatarUrl ? (
+                        <img src={user?.avatarUrl} alt={user?.name} className="w-full h-full object-cover" />
+                      ) : (
+                        user?.name.charAt(0).toUpperCase()
+                      )}
                     </div>
                     <div>
                       <p className="font-medium text-gray-900 text-sm">{user?.name}</p>

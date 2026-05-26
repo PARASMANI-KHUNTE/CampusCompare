@@ -65,3 +65,30 @@ export const getMe = async (userId: string) => {
   const { password: _, ...userWithoutPassword } = user;
   return userWithoutPassword;
 };
+
+export const updateProfile = async (userId: string, data: { name?: string }) => {
+  const user = await prisma.user.update({
+    where: { id: userId },
+    data,
+  });
+  
+  const { password: _, ...userWithoutPassword } = user;
+  return userWithoutPassword;
+};
+
+export const uploadAvatar = async (userId: string, avatarUrl: string) => {
+  const user = await prisma.user.update({
+    where: { id: userId },
+    data: { avatarUrl },
+  });
+  
+  const { password: _, ...userWithoutPassword } = user;
+  return userWithoutPassword;
+};
+
+export const deleteAccount = async (userId: string) => {
+  await prisma.user.delete({
+    where: { id: userId },
+  });
+};
+

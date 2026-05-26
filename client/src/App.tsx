@@ -16,6 +16,7 @@ const Compare = lazy(() => import('./pages/Compare').then(m => ({ default: m.Com
 const Predictor = lazy(() => import('./pages/Predictor').then(m => ({ default: m.Predictor })));
 const Discussions = lazy(() => import('./pages/Discussions').then(m => ({ default: m.Discussions })));
 const SavedColleges = lazy(() => import('./pages/SavedColleges').then(m => ({ default: m.SavedColleges })));
+const Profile = lazy(() => import('./pages/Profile').then(m => ({ default: m.Profile })));
 const Login = lazy(() => import('./pages/AuthPages').then(m => ({ default: m.Login })));
 const Register = lazy(() => import('./pages/AuthPages').then(m => ({ default: m.Register })));
 const AdminDashboard = lazy(() => import('./pages/AdminDashboard').then(m => ({ default: m.AdminDashboard })));
@@ -60,6 +61,7 @@ function App() {
                   
                   <Route element={<ProtectedRoute />}>
                     <Route path="/saved" element={<SavedColleges />} />
+                    <Route path="/profile" element={<Profile />} />
                   </Route>
 
                   <Route element={<AdminRoute />}>
