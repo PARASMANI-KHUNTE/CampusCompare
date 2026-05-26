@@ -20,7 +20,7 @@ export const saveComparison = asyncHandler(async (req: AuthRequest, res: Respons
     },
   });
 
-  return successResponse(res, 'Comparison saved successfully', { savedComparison }, 201);
+  return successResponse(res, 'Comparison saved successfully', savedComparison, 201);
 });
 
 export const getSavedComparisons = asyncHandler(async (req: AuthRequest, res: Response) => {
@@ -31,7 +31,7 @@ export const getSavedComparisons = asyncHandler(async (req: AuthRequest, res: Re
     orderBy: { createdAt: 'desc' },
   });
 
-  return successResponse(res, 'Saved comparisons fetched successfully', { savedComparisons });
+  return successResponse(res, 'Saved comparisons fetched successfully', savedComparisons);
 });
 
 export const deleteSavedComparison = asyncHandler(async (req: AuthRequest, res: Response) => {

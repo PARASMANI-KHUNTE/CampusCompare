@@ -18,6 +18,9 @@ import savedComparisonRoutes from './routes/saved-comparison.routes';
 
 const app = express();
 
+// Trust proxy needed for express-rate-limit when deployed behind a reverse proxy (like Render, Heroku, etc.)
+app.set('trust proxy', 1);
+
 // Security Middleware
 app.use(helmet({
   crossOriginResourcePolicy: { policy: "cross-origin" }
