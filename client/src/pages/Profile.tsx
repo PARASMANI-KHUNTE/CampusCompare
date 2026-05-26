@@ -170,7 +170,7 @@ export const Profile = () => {
 
       <ConfirmDialog
         isOpen={isDeleting}
-        onClose={() => setIsDeleting(false)}
+        onCancel={() => setIsDeleting(false)}
         onConfirm={() => deleteAccountMutation.mutate()}
         title="Delete Account"
         message="Are you absolutely sure you want to delete your account? All your reviews, saved colleges, and community discussions will be permanently erased. This action CANNOT be undone."
